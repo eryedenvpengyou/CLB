@@ -1,0 +1,217 @@
+.plan{
+    width: 1200px;
+    margin: 0 auto;
+}
+.rt{
+    float: right
+}
+.main{
+    margin-top: 20px;
+}
+.main label{
+    font-size: 16px !important;
+    font-weight: normal;
+    line-height: 40px;
+}
+.common{
+    margin-top: 10px;
+    margin-bottom: 51px;
+}
+.textR{
+    text-align: right
+}
+.textR button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+.backBlock{
+    margin-right: 8px;
+    font-weight: normal !important;
+}
+.textBold{
+    color: #000;
+}
+.textYellow,
+.textYellow:focus{
+    color: #d1b97f;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+/*面包屑*/
+.breadcrumb{
+    margin: 20px 0;
+}
+/*弹出框*/
+.pop{
+    display: inline-block;
+    margin-left: 10px;
+}
+.modalT>div>div>div>div{
+    overflow-x: auto !important;
+    max-height: 367px !important;
+    overflow-y: scroll !important;
+}
+.modalT {
+    margin: 20px 0;
+}
+.modalT table{
+    border-left: 1px solid #d1b97f !important;
+    border-top: 1px solid #d1b97f !important;
+}
+.modalT table>thead>tr>th,
+.modalT table>tbody>tr>td{
+    text-align: center!important;
+    border-bottom-color: #d1b97f;
+    border-right: 1px solid #d1b97f !important;
+    border-right-color: #d1b97f !important;
+    border-bottom: 1px solid #d1b97f !important;
+}
+.modalT table>thead>tr>th{
+    font-size: 22px !important;
+    background: #e9e9e9;
+}
+.modalT table>tbody>tr>td{
+    font-size: 18px !important;
+}
+.title{
+    text-align: center;
+    font-size: 22px;
+}
+/*表单*/
+/*.title_font{
+  font-size: 18px;
+}*/
+
+.formitem_sty{
+  margin-left: 10%;
+}
+
+/*我的团队-内容*/
+.mainContent{
+    overflow: hidden;
+    border: 12px solid #efefef;
+    padding: 12px;
+    margin-bottom: 28px;
+}
+.mainContent .contentT{
+    padding: 18px 0;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 28px;
+}
+.mainContent table{
+    margin: 20px 0;
+    text-align: center;
+    border-left: 1px solid #d1b97f !important;
+    border-top: 1px solid #d1b97f !important;
+}
+.mainContent table>thead>tr>th{
+    background: #e9e9e9;
+}
+.mainContent table>tbody>tr>td,
+.mainContent table>thead>tr>th{
+    text-align: center !important;
+    border-bottom-color: #d1b97f !important;
+    border-right: 1px solid #d1b97f !important;
+    border-right-color: #d1b97f !important;
+}
+.mainContent table>thead>tr>th{
+    font-size: 18px !important;
+}
+.mainContent table>tbody>tr>td{
+    font-size: 14px !important;
+}
+.mainContent table>tbody>tr>td .look{
+    background-color: #fff;
+    border-color: #d1b97f;
+    color: rgba(0, 0, 0, 0.65);
+}
+.mainContent table>tbody>tr>td .look:hover{
+    background-color: #d1b97f;
+    color: #fff;
+}
+.mainContent table>tbody>tr>td .alter:hover{
+    color: #d1b97f;
+}
+/*计划书申请*/
+.moneyType{
+    width:106px !important;
+    position:relative  !important;
+    left:-23.5% !important
+}
+.moneyType>div>div>div{
+    padding-right: 0 !important;
+}
+.moneyType>div>div>div:first-child{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
+}
+/*组件样式*/
+.checkStatus>span:first-child{
+    vertical-align: baseline;
+}
+.checkStatus>span>span{
+    border-color: #d1b97f !important;
+}
+.checkStatus>.ant-checkbox-checked{
+    background-color: #d1b97f !important;
+}
+.bottomBtn,
+.bottomBtn:hover,
+.bottomBtn:active,
+.bottomBtn:focus{
+    width: 140px;
+    height:40px;
+    font-weight: normal !important;
+    font-size: 18px !important;
+}
+
+/*计划书库*/
+.mainContentLibrary .contentT{
+  padding: 18px 0;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 28px;
+}
+.mainContentLibrary table{
+  margin: 20px 0;
+  text-align: center;
+  border-left: 1px solid #d1b97f !important;
+  border-top: 1px solid #d1b97f !important;
+}
+.mainContentLibrary table>thead>tr>th{
+  background: #e9e9e9;
+}
+.mainContentLibrary table>tbody>tr>td,
+.mainContentLibrary table>thead>tr>th{
+  text-align: center !important;
+  border-bottom-color: #d1b97f !important;
+  border-right: 1px solid #d1b97f !important;
+  border-right-color: #d1b97f !important;
+}
+.mainContentLibrary table>thead>tr>th{
+  font-size: 18px !important;
+}
+.mainContentLibrary table>tbody>tr>td{
+  font-size: 14px !important;
+}
+.mainContentLibrary table>tbody>tr>td .look{
+  background-color: #fff;
+  border-color: #d1b97f;
+  color: rgba(0, 0, 0, 0.65);
+}
+.mainContentLibrary table>tbody>tr>td .look:hover{
+  background-color: #d1b97f;
+  color: #fff;
+}
+.mainContentLibrary table>tbody>tr>td .alter:hover{
+  color: #d1b97f;
+}
+.table_border{
+  border:12px solid #E9E9E9;
+  width:1200px;
+  min-height: 510px;
+  margin: 20px auto;
+  padding: 28px 12px 0 12px;
+  background:#FFFFFF;
+}

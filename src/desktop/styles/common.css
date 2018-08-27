@@ -1,0 +1,55 @@
+.App {
+    text-align: left;
+}
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 50px;
+}
+.App-header {
+    background-color: #222222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+.App-intro {
+    font-size: large;
+}
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+#components-layout-demo-top .logo {
+    width: 10px;
+    height: 31px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+.search_form {
+  padding: 10px 10px 10px 0;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+/*小标题样式*/
+.iconL{
+    display: inline-block;
+    width: 6px;
+    height: 30px;
+    background-color: #d1b97f;
+    vertical-align: bottom;
+    margin-right: 15px;
+}
+.iconR{
+    font-size: 22px;
+}
+.iconCircle{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #d1b97f;
+    border-radius: 50%;
+    margin-right: 10px;
+}

@@ -1,0 +1,639 @@
+
+/* 最外面的div */
+.main {
+  padding:0;
+  flex: 1 0 auto;
+  min-height:520px;
+}
+
+/* 主要内容div 也就是那个框 */
+.content{
+  border:12px solid #E9E9E9;
+  width:1200px;
+  margin:20px auto;
+  min-height: 935px;
+  padding:0 10px;
+  border-radius:0px;
+  background:#FFFFFF;
+}
+.item_div{
+  margin-top: 27px;
+}
+
+/* 面包屑 */
+.bread{
+  margin:0 auto;
+}
+
+/* 每个 div item 底部的线 */
+.div_item_line{
+  border-bottom:1px solid #d0d0d0;
+  margin-top: 30px;
+}
+.div_item_no_line{
+  margin-top: 20px;
+}
+
+/* 最后一个 div item */
+.div_item_last{
+  margin-top: 3%;
+  margin-bottom:3%;
+}
+
+/* 左边的那条短线 */
+.b_short_line{
+  font-size: 20px;
+  color: #d1b97f;
+  margin-right: 1%;
+}
+
+/* title 字体 */
+.title_font{
+  font-size: 18px;
+}
+
+/* title 字体 */
+.title_font_lg{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+}
+
+/* 表格 数据居中 */
+.text_center{
+  text-align:center !important
+}
+
+.search_border{
+  padding-bottom: 25px;
+  border-bottom:1px solid #E9E9E9;
+}
+
+.detail_title{
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  border-bottom:1px solid #D9D9D9;
+}
+
+.title_sty{
+  padding-bottom: 27px;
+  margin-bottom: 30px;
+  border-bottom:1px solid #D9D9D9;
+}
+
+.title_font2{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+}
+
+
+
+/* 在 qa常见问题 中使用 */
+.qa_main {
+  padding:0px 0 30px 0;
+  flex: 1 0 auto;
+  min-height:520px;
+}
+
+/* 在 qa常见问题 中使用 */
+.qa_content{
+  border:12px solid #E9E9E9;
+  overflow: hidden;
+  width:1200px;
+  margin:20px auto;
+  min-height: 935px;
+  padding:22px 12px;
+  border-radius:0px;
+  background:#FFFFFF;
+}
+
+/* 用于控制 qa 下的面包屑 */
+.qa_bread {
+  font-size: 16px;
+  width: 1200px;
+  margin: 0px auto;
+}
+.qa_bread a {
+  font-size: 16px !important;
+}
+
+
+/* 用于控制 qa中问题展示 的样式 */
+.qa_question_solution{
+  max-width: 828px;
+  height:100%;
+  word-wrap:break-word;
+  font-size: 14px;
+  font-family:'MicrosoftYaHei';
+  padding:0 30px 0 30px;
+}
+.qa_question_header{
+    background: #FAFAFA;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family:'MicrosoftYaHei';
+    color:#D1B97F !important;
+    border: 0;
+}
+
+
+.qa_question_header .ant-collapse-header i{
+  color:#D1B97F !important;
+}
+
+
+/* 用于控制 qa中sider 的样式，作为下面样式的父级，方便控制 */
+.qa_sider_menu {
+  height:auto;
+}
+
+/*选中*/
+.qa_sider_menu li[aria-selected=true]{
+  background-color: #FFF !important;
+  color: #D1B97F !important;
+}
+
+/*选中的后面添加*/
+.qa_sider_menu li[aria-selected=true]:after{
+    border-right: 3px solid !important;
+}
+
+/* 给每个 li 加个 下边框 */
+.qa_sider_menu li{
+  border-bottom: 1px solid #D1B97F !important;
+}
+
+/*鼠标悬浮*/
+.qa_sider_menu li:hover{
+  background-color: #f0df9f !important;
+  color: black !important;
+}
+
+/*鼠标悬浮*/
+.qa_sider_menu li div:hover{
+  background-color: #D1B97F !important;
+  color: black !important;
+}
+
+/* menu标题 */
+.qa_sider_menu li[class*="ant-menu-submenu-inline ant-menu-submenu"]{
+  background-color: #D1B97F !important;
+  margin-bottom: 20px !important;
+  color: white !important;
+  border: 1px solid !important;
+}
+
+/* 让最后一个 li  距离 底部 为 0 */
+.qa_sider_menu li[class*="ant-menu-submenu-inline ant-menu-submenu"]:last-child{
+  background-color: #D1B97F !important;
+  margin-bottom: 0 !important;
+  color: white !important;
+}
+
+/* 设置 最外层ul 的边框为 0 */
+.qa_sider_menu ul[class*="ant-menu-inline"]{
+  border-right: 0px solid !important;
+}
+
+/* 设置 子ul 的边框 为 1，也就是那三个 标题对应的ul */
+.qa_sider_menu ul[class*="ant-menu ant-menu-inline ant-menu-sub"]{
+  border: 1px solid #D1B97F !important;
+}
+
+/*.qa_sider_menu .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #f04134 !important;
+}*/
+
+
+
+
+
+/* 在 客户详情界面中的 表格中使用  border样式 */
+.table1{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(235, 242, 224);
+  /*width:90%;*/
+  margin: 15px 10px;
+  border: 1px solid #E9E9E9;
+}
+
+.table1 tr {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(235, 242, 224);
+}
+
+.table1 td{
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: Verdana;
+  border: 1px solid #E9E9E9;
+}
+
+.table1 tr:nth-child(even) {
+  background: #F9F9F9
+}
+
+.table1 tr:nth-child(odd) {
+  background: #FFF
+}
+
+
+
+
+/* 在 渠道对账单 中的问题咨询界面使用 */
+.talk{
+  border-bottom: 12px solid #DBDBDB;
+  border-left: 20px solid transparent;
+  float:left;
+  width:10px;
+  margin-top:12px;
+}
+
+
+.protocol_title{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: -16px -16px 16px -16px;
+  background-color: #d1b97f;
+}
+
+.protocol_content{
+  height:400px;
+  overflow-y:scroll;
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+  margin: 15px 25px 10px 25px;
+  border-radius: 4px;
+}
+
+.button_sty{
+  margin-left: 40%;
+}
+
+.phonecheck_content{
+
+  padding: 10px;
+  margin: 15px 25px 10px 25px;
+
+}
+
+
+.b_sty{
+  font-size:20px;
+  font-weight: bold;
+  color:#d1b97f;
+  margin-right:10px;
+}
+
+.title_sty{
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom:1px solid #D9D9D9;
+}
+
+
+/*小标题样式*/
+.iconL{
+  display: inline-block;
+  width: 6px;
+  height: 30px;
+  background-color: #d1b97f;
+  vertical-align: bottom;
+  margin-right: 15px;
+}
+
+/* 头像 */
+.avatar_uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 75px;
+  cursor: pointer;
+}
+.avatar_uploader_trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}
+.avatar_uploader, .avatar_uploader_trigger, .avatar {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* 默认 按钮样式 */
+.btn_default {
+  border-color: #d1b97f !important;
+  color: #333 !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+  font-weight: normal;
+}
+.btn_default:hover,
+.btn_default:focus,
+.btn_default:active {
+  border-color: #d1b97f !important;
+  color: #d1b97f !important;
+  font-size: 16px !important;
+  font-weight: normal;
+  font-family: 'MicrosoftYaHei' !important;
+}
+.btn_default[disabled]:hover,
+.btn_default[disabled]:focus,
+.btn_default[disabled]:active {
+    color: rgba(0, 0, 0, 0.25) !important;
+    background-color: #f7f7f7 !important;
+    border-color: #d9d9d9 !important;
+}
+
+/* 列表操作 按钮样式 */
+.btn_operation {
+  border-color: #d1b97f !important;
+  color: #333 !important;
+  font-size: 14px !important;
+  font-family: 'MicrosoftYaHei' !important;
+  font-weight: normal;
+}
+.btn_operation:hover,
+.btn_operation:focus,
+.btn_operation:active {
+  border-color: #d1b97f !important;
+  color: #d1b97f !important;
+  font-size: 14px !important;
+  font-weight: normal;
+  font-family: 'MicrosoftYaHei' !important;
+}
+.btn_operation[disabled]:hover,
+.btn_operation[disabled]:focus,
+.btn_operation[disabled]:active {
+  color: rgba(0, 0, 0, 0.25) !important;
+  background-color: #f7f7f7 !important;
+  border-color: #d9d9d9 !important;
+}
+
+/* 需要的 按钮样式 */
+.btn_primary {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+  font-weight: normal;
+}
+.btn_primary:hover,
+.btn_primary:focus,
+.btn_primary:active {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  opacity: 0.7 !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+}
+.btn_primary[disabled]:hover,
+.btn_primary[disabled]:focus,
+.btn_primary[disabled]:active {
+    color: rgba(0, 0, 0, 0.25) !important;
+    background-color: #f7f7f7 !important;
+    border-color: #d9d9d9 !important;
+}
+
+
+.btn_operationP {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  font-size: 14px !important;
+  font-family: 'MicrosoftYaHei' !important;
+  font-weight: normal;
+}
+.btn_operationP:hover,
+.btn_operationP:focus,
+.btn_operationP:active {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  opacity: 0.7 !important;
+  font-size: 14px !important;
+  font-family: 'MicrosoftYaHei' !important;
+}
+.btn_operationP[disabled]:hover,
+.btn_operationP[disabled]:focus,
+.btn_operationP[disabled]:active {
+  color: rgba(0, 0, 0, 0.25) !important;
+  background-color: #f7f7f7 !important;
+  border-color: #d9d9d9 !important;
+}
+
+
+/*Form表单的label标签字体*/
+.form_sty label{
+  font-size:16px;
+  font-weight: normal;
+  font-family: "Microsoft YaHei";
+}
+
+/* .form_sty input{
+  height:40px!important;
+} */
+
+/* .form_sty input:hover,
+.form_sty textarea:hover{
+  border: 1px solid rgb(209, 185, 127)!important;
+} */
+
+.qa_main input{
+  height:40px!important;
+}
+.qa_main input:hover{
+  border: 1px solid rgb(209, 185, 127)!important;
+}
+
+
+/* table 样式 */
+.commons table{
+  border-left:1px solid #D1B97F !important;
+  border-bottom:1px solid #D1B97F !important;
+}
+
+.commons thead{
+  background-color: #e9e9e9 !important;
+}
+
+.commons td{
+  border-top:1px solid #D1B97F !important;
+  border-right:1px solid #D1B97F !important;
+}
+
+.commons th{
+  border-top:1px solid #D1B97F !important;
+  border-right:1px solid #D1B97F !important;
+  background-color: #E2DCCC !important;
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+
+}
+
+.commons tr{
+  border-top:1px solid #D1B97F !important;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+}
+
+
+
+
+.customer-detail{
+  width: 100%;
+  height: 50px;
+  background: #D1B97F;
+  border-radius:15px;
+  margin-top:20px;
+  color:#FFFFFF;
+}
+
+.customer-detail a:first-child{
+  margin-left: 60px;
+}
+
+.customer-detail a{
+  display:block;
+  float:left;
+  cursor: pointer;
+  line-height: 40px;
+  margin-left: 120px;
+  margin-top: 5px;
+  height: 45px;
+  width:110px;
+  padding-left: 13px;
+  border-radius:15px 15px 0 0;
+  font-size: 21px;
+  font-family: "Microsoft YaHei";
+  color: #FFFFFF !important;
+}
+
+.customer-detail a:hover,
+.customer-detail a:active,
+.customer-detail a:focus,
+.customer-detail .active {
+  background: #FFFFFF;
+  color:#333333 !important;
+  text-decoration:none;
+}
+
+.customer-detail .active {
+    background: #FFFFFF;
+  color:#333333 !important;
+  text-decoration:none;
+}
+
+.switch span{
+  border-color:#d1b97f;
+  background-color: #d1b97f;
+}
+
+
+
+
+
+
+/* tab 页面 */
+.qa .tab{
+  line-height: 50px;
+  padding: 30px 0px 20px 0px;
+}
+.qa .tab a{
+  display: inline-block;
+  text-align: center;
+  width: calc((100% - 5px) / 2);
+  font-size: 16px;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  transition: border-top .3s ease;
+}
+
+.qa .tab a:hover,
+.qa .tab a:focus,
+.qa .tab .active{
+  border-top: 2px solid #d1b97f;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  color: #d1b97f;
+}
+
+
+
+
+/*预约--温馨提示*/
+.productSubscribeReminder {
+  color: #000;
+}
+.productSubscribeReminder div {
+  color: #9c9c9c;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.disableds input[disabled],select[disabled='disabled'],textarea[disabled='disabled'] {
+  background-color: #FFFFFF !important;
+  cursor: not-allowed;
+  color: #595959 !important;
+}
+
+.select-disableds > div,
+.input-disableds > div{
+  background: #FFF !important;
+  color: #595959 !important;
+}
+.input-disableds > div >input{
+  opacity: 1 !important;
+}
+.cascader-disableds >span[class ='ant-cascader-picker-label']{
+  color: #595959 !important;
+}
+.cascader-disableds >div>div>span>span[class='ant-cascader-picker-label']{
+  color: #595959 !important;
+}
+.textarea-disableds {
+  background: #FFF !important;
+  color: #595959 !important;
+}
+
+.pre{
+  color:#595959 !important;
+}
+
+.textarea{
+  height: auto !important;
+}
+
+
+/* 用于控制附件是否可以修改 */
+.no-remove div i{
+  display: none !important;
+}
+
+.has-remove{
+  display: block;
+}
+.confirm{
+  border-top: 1px solid rgb(219, 219, 219);
+  margin-top: 50px;
+  padding-left: 200px;
+  padding-top: 28px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+div.disableds input.disabledInput {
+  background: #eee!important;
+}
+div.selectDisabled > div {
+  background: transparent !important;
+  color: #333 !important;
+}
+

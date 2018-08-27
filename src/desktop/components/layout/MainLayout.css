@@ -1,0 +1,25 @@
+/* 头布局 */
+.normal {
+  display: flex;
+  flex-direction: column;
+}
+/* 布局 */
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.main {
+  flex: 1 0 auto;
+  background: #fff;
+  min-height:520px;
+}
+
+.footer {
+  margin:0 12px ;
+  color:black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+a:hover{color:#d1b97f;text-decoration:none;}

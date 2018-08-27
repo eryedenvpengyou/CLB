@@ -1,0 +1,275 @@
+.table_border{
+  border:12px solid #E9E9E9;
+  width:1200px;
+  min-height: 510px;
+  margin: 20px auto;
+  padding: 0 10px;
+  background:#FFFFFF;
+}
+.bread_sty{
+  width:1200px;
+  margin: 0 auto;
+}
+
+.b_sty{
+  font-size:20px;
+  color:#d1b97f;
+  margin-right:1%;
+}
+.title_font{
+  font-size: 18px;
+}
+
+.formitem_sty{
+  /*margin-left: 10%;*/
+}
+
+.item_div{
+  margin-top: 27px;
+}
+.item_div .fromMsg{
+  padding-left: 150px;
+  font-size:16px;
+  text-align: center;
+  color:rgb(240, 65, 52);
+}
+.item_div2{
+  margin-top: 2%;
+}
+.main {
+  flex: 1 0 auto;
+  min-height:520px;
+}
+
+.number_input{
+  width: 100%;
+}
+
+
+
+/* Border styles */
+.table1{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(235, 242, 224);
+  /*width:90%;*/
+  margin: 5px 170px;
+  border: 1px solid #CDBF9E;
+}
+
+.table1 th{
+  height: 35px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-family: Verdana;
+  border: 1px solid #CDBF9E;
+  vertical-align: middle;
+}
+
+.table1 tr {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(235, 242, 224);
+  vertical-align: middle;
+}
+
+.table1 td{
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: Verdana;
+  border: 1px solid #CDBF9E;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.table1 tr:nth-child(even) {
+  background: #F9F9F9
+}
+.table1 tr:nth-child(odd) {
+  background: #FFF
+}
+
+.title_sty{
+  padding-bottom: 27px;
+  margin-bottom: 30px;
+  border-bottom:1px solid #D9D9D9;
+}
+
+.title_font2{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+}
+.model_title{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.attach_div{
+  border: 1px solid #CDBF9E;
+  margin: 3% 170px;
+}
+
+.commons tr:hover > td {
+  background: #fff !important;
+}
+
+.commons table{
+  border-left:1px solid #D1B97F !important;
+  border-bottom:1px solid #D1B97F!important;
+}
+.commons td{
+  border-top:1px solid #D1B97F !important;
+  border-right:1px solid #D1B97F !important;
+}
+
+.commons th{
+  border-top:1px solid #D1B97F !important;
+  border-right:1px solid #D1B97F !important;
+  background-color: #E2DCCC !important;
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+}
+
+.commons tr{
+  border-top:1px solid #D1B97F !important;
+}
+.text_center{
+  text-align:center !important;
+}
+
+/*小标题样式*/
+.iconL{
+  display: inline-block;
+  width: 6px;
+  height: 30px;
+  background-color: #d1b97f;
+  vertical-align: bottom;
+  margin-right: 15px;
+}
+
+/*Form表单的label标签字体*/
+.form_sty label{
+  font-size:16px;
+  font-weight: normal;
+  font-family: "Microsoft YaHei";
+}
+
+/*按钮基本样式-default和primary*/
+.btn_default {
+  border-color: #d1b97f !important;
+  color: #333 !important;
+  font-size: 16px !important;
+}
+.btn_default:hover,
+.btn_default:focus,
+.btn_default:active {
+  border-color: #d1b97f !important;
+  color: #d1b97f !important;
+  font-size: 16px !important;
+}
+.btn_primary {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  font-size: 16px !important;
+}
+.btn_primary:hover,
+.btn_primary:focus,
+.btn_primary:active {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  opacity: 0.7 !important;
+  font-size: 16px !important;
+}
+
+/*复选框样式*/
+.checkbox_sty>span>span{
+  border-color: #d1b97f !important;
+
+}
+.checkbox_sty>.ant-checkbox-checked{
+  background-color: #d1b97f !important;
+}
+
+.checkbox_sty>.ant-checkbox-checked >.ant-checkbox-inner{
+  background-color: #d1b97f !important;
+}
+
+.product table {
+  border: 1px solid #d1b97f !important;
+  border-radius: 4px 4px 0px 0px;
+}
+.product table thead tr th {
+  text-align: center;
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+  font-weight: bold !important;
+  background-color: #efefef;
+  font-size: 17px !important;
+}
+.product table tbody tr td {
+  text-align: center;
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+}
+
+
+/*团队签证 表格样式*/
+.commonstd table{
+  border-left:1px solid #D1B97F !important;
+  border-bottom:1px solid #D1B97F !important;
+}
+
+.commonstd thead{
+  background-color: #E2DCCC !important;
+}
+
+.commonstdtable title
+
+.commonstd td{
+  border-top:1px solid #D1B97F !important;
+  border-right:1px solid #D1B97F !important;
+}
+
+.commonstd th{
+  border-top:1px solid #D1B97F !important;
+  border-right:1px solid #D1B97F !important;
+  background-color: #E2DCCC !important;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+
+}
+
+.commonstd tr{
+  border-top:1px solid #D1B97F !important;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+}
+
+/* 用于控制附件是否可以修改 */
+.no-remove div i{
+  display: none !important;
+}
+
+.has-remove div i{
+  display: block;
+}
+
+.textarea{
+  height: auto !important;
+}
+
+.ord-select > div[roe='combobox']{
+    min-height: 40px !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+.rad textarea[disabled],
+.rad >div>div>div>label>span + span{
+  color: #595959 !important;
+}

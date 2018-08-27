@@ -1,0 +1,163 @@
+.bg{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  /*background-image: url("../styles/images/loginbg.png");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login_sty{
+  width:1200px;
+  margin:20px auto;
+}
+
+.login_modal_sty{
+  max-height:500px;
+  padding:25px 60px;
+  margin:50px auto;
+  float:right;
+  background:#FFFFFF;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.code {
+  font-family: PingFangSC-Regular;
+  font-style: italic;
+  font-size:25px;
+  color: #031A77;
+  border: 0;
+  padding: 2px 3px;
+  letter-spacing: 3px;
+  background-color:#F4F4F4;
+}
+
+
+.login_modal_sty input{
+  height:40px!important;
+}
+/**/
+
+.menuChoosed {
+  height: 100%;
+  background-image: url(./images/portal/menuBackgroup.png) !important;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border-bottom: white !important;
+  transform: scale(1.13) !important;
+  color: white !important;
+}
+.menuChoose:hover{
+  height: 100%;
+  background-image: url(./images/portal/menuBackgroup.png);
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border-bottom: white !important;
+  color: white !important;
+  transform: scale(1.13) !important;
+}
+.menuChoose:hover div:nth-child(1){
+  color: white !important;
+}
+.menuChoose:hover div:nth-child(2){
+  color: white !important;
+}
+.menuChunked {
+  color: white !important;
+}
+.menuChunked div:nth-child(2) {
+  color: white !important;
+}
+.menuChunk {
+}
+.menuChunk:hover{
+  color: white !important;
+}
+/*工作台首页-Menu*/
+.menuChoosed {
+  height: 100%;
+  background-image: url(./images/portal/menuBackgroup.png) !important;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border-bottom: white !important;
+  transform: scale(1.13) !important;
+  color: white !important;
+}
+.menuChoose:hover{
+  height: 100%;
+  background-image: url(./images/portal/menuBackgroup.png);
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border-bottom: white !important;
+  color: white !important;
+  transform: scale(1.13) !important;
+}
+.menuChoose:hover div:nth-child(1){
+  color: white !important;
+}
+.menuChoose:hover div:nth-child(2){
+  color: white !important;
+}
+.menuChunked {
+  color: white !important;
+}
+.menuChunked div:nth-child(2) {
+  color: white !important;
+}
+.menuChunk {
+}
+.menuChunk:hover{
+  color: white !important;
+}
+
+
+/*Form表单的label标签字体*/
+.form_sty label{
+  font-size:14px;
+  font-weight: normal;
+  font-family: "Microsoft YaHei";
+}
+.form_sty > div {
+  margin-bottom: 0px !important;
+}
+.btn_primary {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+  font-weight: normal;
+}
+.btn_primary:hover,
+.btn_primary:focus,
+.btn_primary:active {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  opacity: 0.7 !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+}
+.logintabs > div {
+  border-bottom: 0px !important
+
+}
+.logintabs > div >div >div> div> div>div {
+  margin-right: 0px !important;
+  color: #999999
+}
+.logintabs > div >div >div> div>div> div+div+div {
+  border-left: 2px solid #999999;
+  line-height: 10px;
+}
+.logintabs > div {
+  margin-bottom: 0px !important;
+
+}
+

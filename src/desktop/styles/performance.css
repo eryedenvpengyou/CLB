@@ -1,0 +1,244 @@
+.rt{
+    float: right
+}
+.lf{
+    float: left;
+}
+.main{
+    margin-top: 20px;
+}
+.breadcrumb,
+.headPerf,
+.orderCount,
+.performanceInfo,
+.structure,
+.perfDetail{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden
+}
+/* 切换按钮 */
+.btn{
+    text-align: center;
+    margin: 50px;
+}
+/*我的业绩*/
+.headPerf .lf{
+  width: 380px;
+  height: 300px;
+  margin-right: 20px;
+  background: url('../styles/images/performance/photo2.png') no-repeat;
+  position: relative;
+  text-align: center;
+}
+.headPerf .lf>span{
+    position: absolute;
+    left: 1%;
+    top: 6%;
+    color: #fff;
+    font-size: 16px;
+}
+.headPerf .lf .headInfo{
+    margin-top: 82px;
+}
+.headPerf .lf .headInfo p{
+    font-size: 29px;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+.headPerf .lf .headInfo h2{
+    color: #e90101;
+    font-size: 48px;
+}
+.headPerf .lf .headInfo h2 span{
+    font-size: 18px;
+}
+/*表单*/
+.range{
+    width: 100%;
+    height: 71px;
+    background: #ededed;
+    margin-top: 65px;
+}
+.range .rangeContent{
+    width: 888px;
+    padding: 16px;
+    margin: 0 auto;
+}
+/*公用*/
+.contentT{
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 53px;
+}
+.contentT div{
+    font-size: 40px;
+    color: #333;
+}
+.contentT p{
+    color: #9c9c9c;
+    font-size: 16px;
+}
+/*订单统计*/
+.orderCount .orderM,
+.orderCount .orderB{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.orderCount .orderM ul li{
+    width: 250px;
+    height: 100px;
+    position: relative;
+}
+.orderCount .orderM ul li:not(:last-child){
+    margin-right: 59px;
+}
+.orderCount .orderM ul li .det{
+    position:absolute;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+}
+.orderCount .orderM ul li .det div{
+    font-size: 18px;
+}
+.orderCount .orderM ul li .det a{
+    font-size: 26px;
+    font-weight: bold;
+}
+.orderCount .orderB>div{
+    width: 464px;
+    height: 240px;
+    position: relative;
+    left: -17px;
+    top: 13px;
+    text-align: center;
+    background: #fff3e5;
+}
+.orderCount .orderB>div>span{
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    color: #fff;
+    transform: rotate(40deg);
+}
+.orderCount .orderB>div img{
+    position: absolute;
+    right: 0;
+}
+.orderCount .orderB>div:last-child{
+    background: #fff;
+}
+.orderCount .orderB .orderStu{
+    margin-top: 43px;
+    color: #ff8e00;
+    font-size: 32px;
+}
+.orderCount .orderB .orderStu>div:last-child{
+    font-size: 48px;
+}
+.orderCount .orderB .orderNum a{
+    font-size: 18px;
+    color: #959595 !important;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.orderCount .orderB .orderNum span:not(:last-child){
+    margin-right: 25px;
+}
+/*业绩统计*/
+.performanceCount{
+    width: 100%;
+    background: url('../styles/images/performance/photo12.png') no-repeat;
+}
+.perList{
+    background: url('../styles/images/performance/icon1.png') no-repeat;
+    height: 46px;
+    position: relative;
+}
+.perList .perfTab{
+    color: #fff;
+    position: absolute;
+    top: 11%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dataList{
+  width: 576px;
+  height: 365px;
+  z-index: 2;
+  margin: 20px 0;
+}
+.performanceInfo .contentB {
+    overflow: hidden;
+}
+.performanceInfo .contentB .lf{
+    margin: 30px 10px 85px 0; 
+    border: 1px solid #ddd;
+    box-shadow: #c9c9c9 0px 0px 10px
+}
+.performanceInfo .contentB .product>div{
+    border: none;
+    background: #048ce3;
+}
+.performanceInfo .contentB .product>div>div>div{
+    color: #fff !important;
+}
+/*收益结构*/
+.structureCount{
+    width: 100%;
+    background:#efefef;
+    padding: 50px 0;
+    display: none;
+}
+.structure{
+    background:#fff;
+    border:1px solid #ddd;
+    box-shadow: #c9c9c9 0px 0px 10px
+}
+.structure .structureL{
+    color: #333;
+    font-size: 24px;
+    overflow: hidden;
+    border-right: 1px dashed #9c9c9c;
+    width: 486px;
+}
+.structure .structureL>div{
+    overflow: hidden;
+    margin-bottom: 39px;
+}
+.structureDate{
+    width: 705px;
+    height: 410px;
+}
+.structureB{
+    margin-left: 60px;
+    font-size: 16px;
+}
+.structureB>span>span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin:0 10px;
+}
+/*业绩明细表*/
+.perfDetail table{
+    text-align: center;
+    border-left: 1px solid #d1b97f !important;
+    border-top: 1px solid #d1b97f !important;
+}
+.perfDetail table>thead>tr>th{
+    background: #e9e9e9;
+}
+.perfDetail table>tbody>tr>td,
+.perfDetail table>thead>tr>th{
+    text-align: center !important;
+    /*border-bottom-color: #d1b97f !important;
+    border-right-color: #d1b97f !important;*/
+    border-color: #d1b97f !important;
+}
+.paging{
+    float: right;
+    margin: 25px 0;
+}

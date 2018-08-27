@@ -1,0 +1,517 @@
+/*
+ * view 工作台-我的团队
+ * @author:Lijun
+ * @version:20170714
+ */
+.channel {}
+
+.channel .team{
+  overflow: hidden;
+}
+
+.channel .table-team >div >div >div >div >div >div[class='ant-table-header'] {
+  margin-bottom: initial !important;
+  padding-bottom: initial !important;
+  overflow: initial !important;
+}
+
+/* frame */
+.channel-banner-1,
+.channel .full{
+  width: 100%;
+}
+
+
+.channel .team ul.sign-list,
+.channel .content-title,
+.channel .container,
+.channel .padding{
+  padding: 12px;
+}
+
+.channel .team .ranking-list .header,
+.channel .padding-top{
+  padding-top: 12px;
+}
+
+.channel .team .ranking-list .header,
+.channel .padding-bottom{
+  padding-bottom: 12px;
+}
+
+.channel .frame{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.channel .team ul.sign-list li,
+.channel .left{
+  float: left;
+}
+
+.channel .right{
+  float: right;
+}
+
+.channel .margin-top{
+  margin-top: 12px;
+}
+
+/* color & background */
+.channel .table div,
+.channel .table table thead th,
+.channel .table table tbody td,
+.channel .team .ranking-list,
+.channel .btn.blank,
+.channel .background-white{
+  background: #fff;
+}
+
+.channel .btn,
+.channel .btn.blank:hover,
+.channel .team .ranking-list .header,
+.channel .background{
+  background: #d1b97f;
+}
+
+.channel .table table tbody tr:hover> td,
+.channel .background-init{
+  background: initial;
+}
+
+.channel .btn,
+.channel .btn:hover,
+.channel .btn:focus,
+.channel .btn:visited,
+.channel .btn.blank:hover,
+.channel .color-white{
+  color: #fff;
+}
+
+.channel .team ul.sign-list li >span,
+.channel .team .radios label:hover,
+.channel .team .radios label.active,
+.channel .team .boxs .box >span,
+.channel .color-orange{
+  color: #ff8e00;
+}
+
+.channel .content-title > span,
+.channel.color-grey{
+  color: #9c9c9c;
+}
+
+.channel .team ul.sign-list li >span+span,
+.channel .team .boxs .box >span + span,
+.channel .btn.blank,
+.channel .color-dark{
+    color: #000;
+}
+
+.channel-btn-drop:hover,
+.channel .btn.blank.drop,
+.channel .color{
+  color: rgb(209, 185, 127);
+}
+
+/* utils */
+.channel .icon,
+.channel .team .boxs .box,
+.channel-banner-1,
+.channel .background-repeat-no{
+  background-repeat: no-repeat;
+}
+
+.channel-btn-drop:hover,
+.channel .table table,
+.channel .btn,
+.channel .border{
+    border: 1px solid rgb(209, 185, 127);
+}
+
+.channel .team .table .footer tr td,
+.channel .border-right{
+  border-right: 1px solid rgb(209, 185, 127);
+}
+
+.channel .team .table .footer tr td,
+.channel .border-top{
+  border-top: 1px solid rgb(209, 185, 127);
+}
+
+.channel .btn.blank.grey,
+.channel .border-grey{
+    border: 1px solid #9c9c9c;
+}
+
+.channel .border-left-grey{
+  border-left: 1px solid #9c9c9c;
+}
+
+.channel .border-right-grey{
+  border-right: 1px solid #9c9c9c;
+}
+
+.channel .team .ranking-list div.table table td.border-bottom-init,
+.channel .border-bottom-init{
+  border-bottom: initial;
+}
+
+.channel .team .ranking-list div.table table td,
+.channel .border-bottom-grey{
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.channel .team .radios label:hover,
+.channel .team .radios label.active,
+.channel .border-orange{
+    border: 1px solid #ff8e00;
+}
+
+.channel .icon,
+.channel .content-title > span,
+.channel .btn,
+.channel .display-inline-block{
+  display: inline-block;
+}
+
+.channel .team .table .footer tr td,
+.channel .team ul.sign-list li,
+.channel .content-title,
+.channel .text-center{
+  text-align: center;
+}
+
+.channel .team .ranking-list,
+.channel .box-shadow{
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    border-radius: 2%;
+}
+
+/* components */
+.channel .banner{
+}
+
+.channel .banner.header .frame{
+    padding: initial;
+    margin: 0 auto;
+}
+
+.channel .content-title{
+  margin-top: 16px;
+}
+
+.channel .content-title > h1{
+  font-size: 40px;
+}
+
+.channel .content-title > span{
+  margin-top: 18px;
+  font-size: 16px;
+}
+
+.channel .select > div:focus,
+.channel .select > div:hover{
+    border-color: rgb(209, 185, 127) !important;
+}
+
+.channel .select> div:focus{
+    box-shadow:0 0 0 2px rgba(209, 185, 127, 0.31) !important;
+}
+
+.channel .table table thead th{
+    font-size: 15px;
+}
+.channel .team .table .footer tr td,
+.channel .table table tbody td{
+    padding: 12px;
+}
+
+.channel div.table table{
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: initial;
+}
+
+.channel .table table thead th,
+.channel .table table tbody td{
+    border-right: 1px solid rgb(209, 185, 127);
+    border-bottom: 1px solid rgb(209, 185, 127);
+    font-weight:bold;
+}
+
+.channel .table table thead th{
+  padding: 8px;
+}
+
+.channel .team .back{
+    width: 160px;
+    font-size: 18px;
+    height: 44px;
+    margin-top: -24px;
+    border-width: 2px;
+}
+
+.channel .team .boxs .box{
+  line-height: 80px;
+  padding: 24px;
+}
+
+.channel .team .boxs .box > span{
+  font-size: 48px;
+}
+
+.channel .team .boxs .box > span + span{
+  font-size: 24px;
+}
+
+.channel .team .radios label {
+    border: 1px solid #9c9c9c;
+    margin: 0 1px;
+    border-radius: initial;
+    box-shadow: initial;
+    background-color: initial;
+}
+
+.channel .team ul.sign-list{
+  height: 212px;
+}
+
+.channel .team ul.sign-list li{
+  width: calc(100% / 3);
+  height: 190px;
+  box-sizing: border-box;
+  border-right: 1px solid #dcdcdc;
+}
+
+.channel .team ul.sign-list li span{
+  display: block;
+}
+
+.channel .team ul.sign-list li >span {
+  font-size: 40px;
+  line-height: 1;
+  margin-top: 48px;
+}
+
+.channel .team ul.sign-list li span+span {
+  font-size: 18px;
+  margin-top: 32px;
+}
+
+.channel .team .ranking-list{
+  width: 584px;
+}
+
+.channel .team .ranking-list .header{
+  height: 92px;
+  padding-right: 80px;
+}
+
+.channel .team .ranking-list .header .right{
+  padding: 12px 0;
+  width: 100px;
+}
+
+.channel .team .table .select >div,
+.channel .team .ranking-list .header .right >div{
+  height: 32px !important;
+  font-size: 14px !important;
+}
+
+.channel .team .table .select >div > div,
+.channel .team .ranking-list .header .right >div > div{
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+.channel .team .ranking-list .content{
+  padding: 12px 20px 80px 20px;
+}
+
+.channel .team .ranking-list div.table table{
+  border: initial;
+}
+
+.channel .team .ranking-list .table table th{
+  background: initial;
+  border-bottom: initial;
+  border-right: initial;
+  font-size: 21px;
+}
+
+.channel .team .ranking-list .table table th,
+.channel .team .ranking-list div.table table td{
+  font-weight: initial;
+}
+
+.channel .team .ranking-list div.table table td{
+  border-right: initial;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.channel .team .ranking-list .table table th.quantity span>div{
+  display: none;
+}
+
+.channel .table >div >div >div >div >div >div div+div+div {
+    border: 1px solid rgb(209, 185, 127) !important;
+    padding: initial !important;
+    border-right: initial;
+    box-sizing: border-box;
+}
+
+.channel .team .ranking-list .channel-team-info-box{
+  padding: 18px;
+}
+
+.channel .team .ranking-list .channel-team-info-box h3{
+  font-size: 22px;
+  line-height: 32px;
+  margin: initial;
+}
+
+.channel .team .boxs .box:hover{
+  cursor: pointer;
+}
+
+.channel .team .table .footer{
+  margin-top: -2px;
+}
+
+.channel .team .table .select span.option-content{
+  display: inline;
+  pointer-events: none;
+}
+
+.channel .team a.member{
+  display: block !important;
+}
+
+.channel.modal.create >div >div >div+div {
+    /*height: 650px;*/
+    /*overflow-y: scroll;*/
+}
+
+.channel.modal table tbody tr td.operation{
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+}
+
+
+li span.option-content{
+  width: 74px;
+  display: inline-block;
+}
+
+/* images */
+.channel-banner-1{
+  background-image: url(./images/channel-banner-1.png);
+  height: 502px;
+}
+
+.channel-banner-2{
+  background-image: url(./images/channel-banner-2.png);
+  height: 502px;
+}
+
+.channel-team-box-member{
+  background-image: url(./images/channel-team-box-member.png);
+}
+
+.channel-team-box-following{
+  background-image: url(./images/channel-team-box-following.png);
+  background-position-x: center;
+}
+
+.channel-team-box-pending{
+  background-image: url(./images/channel-team-box-pending.png);
+  background-position-x: center;
+}
+
+.channel-team-box-account{
+  background-image: url(./images/channel-team-box-account.png);
+  background-position-x: right;
+}
+
+.channel-team-background-1{
+  background-image: url(./images/channel-team-background-1.png);
+  background-repeat: no-repeat;
+}
+
+.channel-team-background-2{
+  background-image: url(./images/channel-team-background-2.png);
+  height: 238px;
+  background-repeat: no-repeat;
+  border-radius: 2%;
+  box-shadow:0 0 0 2px rgba(209, 185, 127, 0.31);
+}
+
+.channel-team-background-3{
+  background-image: url(./images/channel-team-background-3.png);
+  background-repeat: no-repeat;
+  height: 742px;
+}
+
+.channel-team-info-box{
+  background-image: url(./images/channel-team-info-box.png);
+  background-repeat: no-repeat;
+  height: 69px;
+  width: 260px;
+  background-position-x: -6px;
+}
+
+.icon-gold{
+  background-image: url(./images/icon-gold.png);
+}
+
+.icon-silver{
+  background-image: url(./images/icon-silver.png);
+}
+
+.icon-bronze{
+  background-image: url(./images/icon-bronze.png);
+}
+
+.icon-gold,
+.icon-silver,
+.icon-bronze{
+  width: 24px;
+  height: 26px;
+  margin-top: 8px;
+}
+
+.icon-up{
+  background-image: url(./images/icon-up.png);
+}
+
+.icon-down{
+  background-image: url(./images/icon-down.png);
+}
+
+.icon-up,
+.icon-down{
+  width: 24px;
+  height: 24px;
+}
+
+.inputn>div[class='ant-input-number-handler-wrap']{
+  z-index: 0 !important;
+}
+.teamModal>div>div[class='ant-modal-header']{
+  text-align: center !important;
+}
+
+div[class*='channel'] .operate-disabled[disabled] {
+  color: rgba(0, 0, 0, 0.25) !important;
+  background-color: #f7f7f7 !important;
+  border-color: #d9d9d9 !important;
+}
+
+div[class*='channel'] .operate-disabled[disabled]:hover {
+  color: rgba(0, 0, 0, 0.25) !important;
+  background-color: #f7f7f7 !important;
+  border-color: #d9d9d9 !important;
+}

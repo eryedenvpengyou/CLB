@@ -1,0 +1,182 @@
+.rt{
+    float: right
+}
+.lf{
+    float: left;
+}
+.main{
+    margin-top: 20px;
+}
+.content {
+    font-size: 16px;
+    width: 1200px;
+    margin: 28px auto;
+    padding: 0 12px;
+    border: 12px solid #efefef;
+  }
+.part1,
+.part2,
+.part3{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden
+}
+/* 结算管理 */
+/* part1 */
+.part1{
+    width: 1177px;
+}
+.part1>div{
+    width: 536px;
+    height: 308px;
+    background: url('../styles/images/settlement/bg1_3.png') no-repeat;
+    position: relative;
+    text-align: center;
+  }
+  .part1>div>span{
+      position: absolute;
+      left: 4%;
+      top: 4%;
+      color: #fff;
+      font-size: 16px;
+  }
+  .part1>div .headInfo{
+      margin-top: 82px;
+      position: relative
+  }
+  .part1>div .headInfo p{
+      font-size: 29px;
+      color: #666;
+      font-weight: bold;
+      margin-bottom: 47px;
+  }
+  .part1>div .headInfo h2{
+      color: #e90101;
+      font-size: 48px;
+  }
+  .part1>div .headInfo h2 span{
+      font-size: 18px;
+  }
+  .part1>div .headInfo img{
+      position: absolute;
+      right: 30px;
+      top: 65px;
+      cursor: pointer;
+  }
+  /* part2 */
+  .part2{
+    width: 100%;
+    margin-top: 39px;
+    padding: 20px 0;
+    background: url('../styles/images/settlement/bg1.png') no-repeat;
+  }
+  .part2>div{
+      width: 1200px;
+      height:534px;
+      background: url('../styles/images/settlement/bg1_2.png') no-repeat;
+      padding: 30px;
+      margin: 0 auto;
+  }
+  .title{
+    text-align: center;
+    margin: 35px 0;
+    font-size: 24px;
+  }
+/* part3 */
+.part3{
+    padding: 20px 0;
+}
+.part3>.frame{
+    width: 1200px;
+    height: 534px;
+    background: url('../styles/images/settlement/bg1_2.png') no-repeat;
+    padding: 30px;
+    margin: 0 auto;
+}
+.link{
+    float: right;
+    margin-top: -50px;
+    font-size: 16px;
+    color: #d1b97f ;
+}
+.link img{
+    margin-left: 5px;
+    vertical-align: baseline;
+}
+/* part4 */
+.part4{
+    background: url('../styles/images/settlement/bg2.png') no-repeat;
+    height: 530px;
+    padding: 30px 0;
+}
+.part4>div{
+    text-align: center;
+    margin: 50px 0;
+}
+.part4 .bgM a{
+    background: url('../styles/images/settlement/img2.png') no-repeat;
+    width: 125px;
+    height: 151px;
+    margin: 0 113px;
+    position: relative;
+    transform: scale(1.05);
+    animation-name: 'ulAnimation';
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.part4 .bgM a:first-child{
+    background: url('../styles/images/settlement/img1.png') no-repeat;
+}
+.part4 .bgM a:last-child{
+    background: url('../styles/images/settlement/img3.png') no-repeat;
+}
+.part4 .bgM a span{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+/* paymentNew */
+.titleNew{
+    text-align: center;
+    margin: 30px 0;
+}
+/* 模态框样式 */
+.modal>div>button{
+    background: #ededed;
+    width: 100%;
+  }
+  .modal>div>button>span{
+    float: right
+  }
+  .modal>div>div[class='ant-modal-header']{
+    text-align: center !important;
+    padding: 75px 0 0 0;
+    border-bottom: none
+  }
+  .modal>div>div[class='ant-modal-header']>div{
+    font-size: 20px
+  }
+  /* 应收应付 */
+  .message{
+    position: absolute;
+    left: 43%;
+    z-index: 99;
+    margin-top: -20px;
+    color: #f04134;
+    font-size: 12px;
+
+  }
+  .disableds input:read-only{
+    background-color: #f7f7f7 !important;
+  }
+  .disableds input[disabled]{
+    background-color: #f7f7f7 !important;
+    cursor: not-allowed;
+    color: #595959 !important;  
+  }
+  .orderDis input[disabled]{
+    cursor: not-allowed;
+    color: #595959 !important;  
+  }

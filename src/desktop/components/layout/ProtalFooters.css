@@ -1,0 +1,67 @@
+/********************************************************************************/
+/********************************** 工作台-首页 ***********************************/
+/* Created by Rex.Hua@20170626*/
+/* 底部链接快 */
+.footerContentUp {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  height: 177px;
+  color:#DDDDDD;
+}
+.footerContentDown {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  height: 269px;
+  color:#DDDDDD;
+}
+.footerTitle {
+  font-size:18px;
+  margin-top: 18px !important;
+  margin-left: 57px;
+}
+.footer {
+  margin-left: 18px;
+  margin-right: 18px ;
+  color:#DDDDDD;
+  text-decoration: none;
+} 
+
+.footerYellow {
+  font-size:16px;
+  margin-right: 19px ;
+  margin-left: 19px;
+  color:#d1b97f ;
+}
+
+/* 底部 */
+.footerInfo{
+  background: #000;
+  color: #fff;
+}
+.footerInfo ul{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 25px;
+  position: relative;
+  padding-bottom: 25px;
+}
+.footerInfo ul li{
+  padding-top: 15px;
+}
+.footerInfo ul li p{
+  text-align: center;
+}
+.footerInfo ul li span{
+  margin-left: 10px;
+}
+.footer_bg{
+  display: flex;
+  width: 100%;
+  min-height: 254px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

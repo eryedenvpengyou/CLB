@@ -1,0 +1,80 @@
+/*body{
+    font-size: 18px;
+    font-weight: normal;
+}*/
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+/*设置-setTop*/
+/*.setPersonal{
+    overflow: hidden;
+    margin: 21px 12px 12px 12px;
+}*/
+
+.bar{
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/*预约签单/计划书库*/
+.plan a{
+    width: 36%;
+    height: 54px;
+    border: 1px solid #d1b97f;
+    text-align: center;
+    line-height: 54px;
+    margin-bottom: 26px;
+    margin-right: 22px;
+    border-radius: 3px;
+}
+.plan .act{
+    color: #fff;
+    background-color:#d1b97f;
+
+}
+/*.plan .num{
+    font-size: 28px;
+}*/
+/*公用部分*/
+.communal{
+    padding: 12px;
+    position: relative;
+}
+.communal span:first-child{
+    display: inline-block;
+    width: 6px;
+    height: 20px;
+    background-color: #d1b97f;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+}
+/*.communal span:last-child{
+    font-size: 28px;
+}*/
+
+
+/*代办列表*/
+.list li{
+    text-align: center;
+    padding: 18px 0;
+}
+.list li a{
+    color: #333;
+}
+/*.list li a.hover{
+    background-color: #d1b97f;
+    color: #fff
+}*/
+/*.list li a:last-child{
+    margin-left: 78px;
+    width: 10%;
+    height: 24px;
+    border: 1px solid #d1b97f;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+}*/

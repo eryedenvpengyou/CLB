@@ -1,0 +1,229 @@
+@font-family: e("\5FAE\8F6F\96C5\9ED1    Regular"),e("\5FAE\8F6F\96C5\9ED1"),Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+@font-size: 12px;
+@big-font-size: 14px;
+
+html, body,
+dl, dt, dd, ol, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+}
+
+input[type="checkbox"] {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: #999 !important;
+  font-family: @font-family;
+}
+input:-moz-placeholder {
+  color: #999 !important;
+  font-family: @font-family;
+}
+input::-moz-placeholder {
+  color: #999 !important;
+  font-family: @font-family;
+}
+input::-ms-input-placeholder {
+  color: #999 !important;
+  font-family: @font-family;
+}
+
+.readonly, input:disabled, select:disabled {
+  color: #dadada;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+.clearfix {
+  zoom: 1;
+  display: table;
+  width: 100%;
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+  }
+}
+
+td{
+  &.left {
+    text-align: left;
+  }
+  &.center {
+    text-align: center;
+  }
+  &.right {
+    text-align: center;
+  }
+  &.top {
+    vertical-align: top;
+  }
+  &.middle {
+    vertical-align: middle;
+  }
+  &.bottom {
+    vertical-align: bottom;
+  }
+}
+
+body {
+  font-size: @font-size;
+  font-family: @font-family;
+  color: #1b1b1b;
+  overflow-x: hidden;
+}
+
+.h-component {
+  margin-bottom: 10px;
+}
+footer .h-component{
+  margin-bottom: 0;
+}
+
+#hmall-container {
+  min-width: 1250px;
+}
+
+.notice:before {
+  display: inline;
+  content: "*";
+  color: #fe0000;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  font-size: @font-size;
+}
+
+.notice-word {
+  color: #fe0000;
+}
+
+.error-msg {
+  &:before {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: middle;
+    background-image: url('images/error.png');
+    content: '';
+  }
+  color: #fe0000;
+  white-space: nowrap;
+}
+
+h1.info,h1.error{
+  text-align: center;
+  line-height: 100px;
+}
+
+.loading {
+  display: block !important;
+  background-image: url('images/loading_40.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100px;
+}
+@import "components/Carousel.less";
+@import "components/Modal.less";
+@import "components/CheckBox.less";
+@import "components/Radio.less";
+@import "components/Icon.less";
+@import "components/ShortCut.less";
+@import "components/Layout.less";
+@import "components/Tab.less";
+@import "components/Form.less";
+@import "components/TextBox.less";
+@import "components/TextArea.less";
+@import "components/SearchBox.less";
+@import "components/ComboBox.less";
+@import "components/RadioList.less";
+@import "components/DatePicker.less";
+@import "components/Button.less";
+@import "components/Logo.less";
+@import "components/MiniCart.less";
+@import "components/AddressManager.less";
+@import "components/ProductList/Choose.less";
+@import "components/ProductList/Search.less";
+@import "components/ProductList/ChooseList.less";
+@import "components/ProductDetail/Canvas.less";
+@import "components/ProductDetail/Store.less";
+@import "components/AlertMap.less";
+@import "components/ProductDetail/Count.less";
+@import "components/PeopleCenter.less";
+@import "components/ProductAndOrderViewer.less";
+@import "components/Cart/Flow.less";
+@import "components/Cart/SimilarityProduct.less";
+@import "components/AlertWindow.less";
+@import "components/SliderVerification.less";
+@import "components/Pagenation.less";
+@import "components/PicUpload.less";
+@import "components/Banner.less";
+@import "components/Product.less";
+@import "components/ProductGroup.less";
+@import "components/HRecommend.less";
+@import "components/VRecommend.less";
+@import "components/Category.less";
+@import "components/History.less";
+@import "components/MediaPlayer.less";
+@import "components/Top.less";
+@import "components/Picture.less";
+
+@import "containers/App.less";
+@import "containers/Cart.less";
+@import "containers/LoginRegister.less";
+@import "containers/PasswordFind.less";
+@import "containers/ProductDetail.less";
+@import "containers/ProductList.less";
+@import "containers/PageNotFound.less";
+@import "containers/Message.less";
+@import "containers/Erp.less";
+@import "containers/payment/Settlement.less";
+@import "containers/payment/OrderPayment.less";
+@import "containers/payment/PaySuccess.less";
+@import "containers/payment/PayFailed.less";
+@import "containers/payment/Lottery.less";
+
+@import "containers/account/Account.less";
+@import "containers/account/BaseInfo.less";
+@import "containers/account/OrderList.less";
+@import "containers/account/Security.less";
+@import "containers/account/Address.less";
+@import "containers/account/Binding.less";
+@import "containers/account/RefusedAndReturn.less";
+@import "containers/account/Replacement.less";
+@import "containers/account/OrderDetail.less";
+@import "containers/account/TakeProof.less";
+@import "containers/account/ApplyRefund.less";
+@import "containers/account/ApplyAfterMarket.less";
+@import "containers/account/Coupon.less";
+@import "containers/account/OrderRecycle.less";
+@import "containers/account/Favorites.less";
+@import "containers/account/ViewRefund.less";
+@import "containers/account/DeliveryCert.less";
+@import "containers/account/Evaluate.less";
+@import "containers/account/Edite.less";
+@import "containers/account/security/ChangePassword.less";
+@import "containers/account/security/ChangePhone.less";
+@import "containers/account/security/ChangeEmail.less";
+@import "containers/account/NewAddress.less";
+@import "containers/account/ViewReplacement.less";
+@import "containers/account/ViewRefundReturn.less";
+@import "containers/account/ViewOnlyRefund.less";

@@ -1,0 +1,547 @@
+.siteNav{
+    width: 100%;
+    height: 80px;
+    background:transparent;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.siteNav>div{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.siteNav>div>img{
+    margin-top: 16px;
+}
+.siteNav>div>div{
+    position: relative;
+    right: 0;
+    top: 29px;
+    float: right
+}
+.siteNav>div ul li{
+    float: left;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.siteNav>div ul li a{
+    color: #fff;
+}
+.siteNav>div ul li a:hover{
+    color: #fff !important;
+}
+.siteNav>div span{
+    color: #d1b97f;
+    font-size: 26px;
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 10px;
+}
+.container{
+    width: 100%
+}
+.container a{
+    color:#fff !important;
+    display: inline-block;
+}
+.container i{
+    display: inline-block;
+}
+.container p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.page1,
+.page2,
+.page21,
+.page3,
+.page4,
+.page5,
+.page6{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    position: relative;
+}
+.page1>div,
+.page2>div,
+.page21>div,
+.page3>div,
+.page4>div,
+.page5>div,
+.page6>div{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%
+}
+.page2>div,
+.page21>div,
+.page3>div,
+.page4>div,
+.page5>div,
+.page6>div{
+    top: 0;
+}
+.page1>div ul{
+    background-color: #053478;
+    text-align: center;
+	opacity: 0.8;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.page1>div ul li{
+    display: inline-block;
+    font-size: 14px;   
+}
+.page1>div ul li>span{
+    color: #00ad74
+}
+.page1>div ul li>span>span{
+    font-size: 32px;
+}
+.page1>div ul li i{
+    width: 4px;
+    height: 30px;
+    background: #fff;
+    display: inline-block;
+    margin: 0 50px;
+    vertical-align: text-bottom
+}
+.front{
+    height: 100%;
+    background: rgba(0,0,51,0.6);
+    text-align: center;
+}
+.frontW{
+    height: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000 !important;
+}
+.frontB{
+    height: 20%;
+    background:#000;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    padding-top: 110px;
+}
+.title h1{
+    font-size: 50px;
+    margin-bottom: 43px;
+    margin-top: 0 !important;
+    color: #fff;
+}
+.title h2{
+    font-size: 26px;
+    margin: 0 !important;
+    color: #fff;
+}
+.backLine span{
+    display: inline-block;
+    width: 80px;
+    border-top: 2px solid #fff;
+    vertical-align: middle;
+}
+.resTop{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    top:60%;
+    left: 45%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    background: url('../styles/images/homePage/button.png') no-repeat;
+    line-height: 57px;
+    border-radius: 10px;
+}
+/* part2 */
+.about{
+    height: 500px;
+    background: url('../styles/images/homePage/icon16.png') no-repeat;
+    background-position: center;
+    position: relative
+}
+.about>div:first-child{
+   padding-top: 50px;
+}
+.about ul{
+    overflow: hidden;
+    padding-top: 132px;
+    padding-left: 37px;
+    width: 1150px;
+    margin: 0 auto;
+}
+.about ul li{
+    font-size: 33px;
+    color: #fff;
+    float: left;
+    width: 31%;
+}
+.about ul li div{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 35px;
+}
+.page21{
+    background-color: #fff;    
+    opacity: 0.8;
+}
+.aboutUs{
+    overflow: hidden
+}
+.aboutUs ul{
+    width: 1200px;
+    text-align: center;
+    overflow: hidden;
+    margin: 80px auto;
+}
+.aboutUs ul li{
+    float: left;
+    width: 33.3%
+}
+.aboutUs ul li h2{
+    color: #053478;
+    margin:50px 0;     
+}     
+
+.aboutUs ul li div{
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 2;
+    text-align: left;
+    margin-left: 50px;
+}
+/* part3 */
+.info{
+	text-align: center !important;
+	background:rgba(255,255,255,0.8);
+    display: inline;
+    color: #000 !important;
+}
+.info ul{
+    display: table;
+    margin: 0 auto;
+    width: 1300px;
+    min-height: 220px;
+}
+.info ul li{
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    width: 33%;
+	transform: scale(1.05);
+}
+.info ul li img{
+	width: 100px;
+	height: 100px;
+}
+.info ul li span:last-child{
+    text-align: center;
+    display: block;
+	font-size: 14px;
+}
+.info ul li span:last-child span{
+    width: 166px;
+    display: inline-block;
+}
+/* part4 */
+.selfHelp img{
+    width: 725px;
+    height: 492px;
+    margin-top: 40px;
+}
+.selfHelp .det{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.selfHelp .det div{
+    margin-bottom: 45px;
+}
+.selfHelp .det div span{
+    background: url('../styles/images/homePage/icon9.png') no-repeat;
+    background-size: 12px 12px;
+    padding-left: 25px;
+    background-position: 0px 8px
+}
+.selfHelp .det div span:last-child{
+    margin-left: 65px;
+}
+/* part5 */
+.proTop{
+    background: #fff;
+    opacity: 0.8;
+    height: 100%;
+    color: #000    
+}
+.product{
+    width: 994px;
+    margin: 50px auto 0 auto;
+}
+.product>div>ul{
+    font-size: 16px;
+    float: left;
+    width: 33.3%;
+    text-align: center
+}
+.product>div>ul>li{
+    margin-bottom: 5px;
+}
+.product>div>ul>li:nth-child(2){
+    font-size: 26px;
+    color: #fff;
+    position: relative;
+    margin: 20px 0;
+}
+.product>div>ul>li:nth-child(2) span{
+    position: absolute;
+    top: 5px;
+    left: 85px;
+}
+.product>div{
+    overflow: hidden;
+}
+.product .pro{
+    text-align: left;
+    width: 255px;
+    margin: 0 auto;
+}
+.product .pro li{
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+/* part6 */
+.bg ul{
+    width: 1050px;
+    margin: 0 auto;
+    font-size: 16px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.bg img{
+    width: 400px;
+}
+.bg ul li:first-child{
+    float: left;
+}
+.bg ul li:last-child{
+    float: right;
+    line-height: 2;
+    font-weight: 600;
+}
+.frontB ul{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;    
+    line-height: 25px;
+    position: relative;
+}
+.frontB ul li{
+    /* margin-top: 20px; */
+    padding-top: 5px;
+}
+.frontB ul li img{
+    width: 15px;
+    height: 16px;
+    margin-right: 20px;
+}
+.frontB ul li.wx{
+    position: absolute;
+    top: 0;
+}
+.frontB ul li.wx img{
+    width: 120px;
+    height: 120px;
+}
+.frontB ul li.wx p{
+    text-align: center;
+    width: 120px;
+}
+.cbSlideshow,
+.cbSlideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.cbSlideshow li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 40s linear infinite 0s;
+    -moz-animation: imageAnimation 40s linear infinite 0s;
+    -o-animation: imageAnimation 40s linear infinite 0s;
+    -ms-animation: imageAnimation 40s linear infinite 0s;
+    animation: imageAnimation 40s linear infinite 0s;
+}
+.cbSlideshow li:nth-child(1) span {
+    background-image: url('../styles/images/homePage/bg1.jpg');
+}
+.cbSlideshow li:nth-child(2) span {
+    background-image: url('../styles/images/homePage/bg2.jpg');
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cbSlideshow li:nth-child(3) span {
+    background-image:url('../styles/images/homePage/bg3.jpg');
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.cbSlideshow li:nth-child(4) span {
+    background-image: url('../styles/images/homePage/bg4.jpg');
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cbSlideshow li:nth-child(5) span {
+    background-image: url('../styles/images/homePage/bg5.jpg');
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.cbSlideshow li:nth-child(6) span {
+    background-image: url('../styles/images/homePage/bg1.jpg');
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+.cbSlideshow li:nth-child(7) span {
+    background-image: url('../styles/images/homePage/bg2.jpg');
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s;
+}
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation {
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1);
+    }
+	100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation {
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1);
+    }
+	100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation {
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1);
+    }
+	100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation {
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1);
+    }
+	100% { opacity: 0 }
+}
+@keyframes imageAnimation {
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1);
+    }
+	100% { opacity: 0 }
+}

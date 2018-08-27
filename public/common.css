@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family:'Microsoft YaHei',sans-serif,Arial !important;
+    font-size: 16px;
+    font-weight: normal;
+    min-width: 1200px;
+}
+
+/*图片滚动页面*/
+.ant-scroll-number-only>p {
+    margin: 0;
+}
+@keyframes ulAnimation {
+	0% {
+	    opacity:1;
+	    transform: scale(0.3);
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity:1;
+	    transform: scale(0.5);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(0.7);
+	}
+	25% {
+	    opacity: 1;
+	    transform: scale(0.9);
+	}
+	100% { opacity: 1 }
+}
+
+/*表单disabled特殊样式*/
+.disableds input[disabled],
+.disableds .ant-input-number-disabled,
+.disableds .ant-select-disabled,
+.disableds .ant-select-disabled .ant-select-selection--multiple .ant-select-selection__choice,
+.disableds .ant-cascader-picker-disabled .ant-cascader-picker-label,
+.disableds textarea[disabled],
+.disableds .ant-btn[disabled]{
+  color: #595959 !important;
+  opacity: 1 !important;
+}
+
+/*箭头向上的图片没有引用，用的css旋转*/
+#buttonImg.actives{
+  -webkit-transform: rotate(180deg) !important;
+  -moz-transform: rotate(180deg) !important;
+  -o-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}

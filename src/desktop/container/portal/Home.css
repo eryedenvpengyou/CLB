@@ -1,0 +1,36 @@
+
+.normal {
+  width: 100%;
+  margin: 0em auto 0;
+}
+.content{
+    background-color: #efefef;
+    padding: 12px
+}
+.content a{
+    color: #333;
+}
+.content>div>div{
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.icon12{
+  background-image: url(../../styles/images/portal/icon12.png);
+  width: 100%;
+  height: 624px;
+}
+.icon13{
+  width: 100%;
+  height: 490px;
+}
+.icon14{
+  background-image: url(../../styles/images/portal/icon14.png);
+  width: 100%;
+  height: 500px;
+}

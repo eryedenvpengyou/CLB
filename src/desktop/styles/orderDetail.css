@@ -1,0 +1,41 @@
+.table_border{
+  border:8px solid #E9E9E9;
+  width:67%;
+  height:100%;
+  min-height: 510px;
+  margin-right:20px;
+  margin-left:16.5%;
+  padding: 0 12px;
+  border-radius:4px;
+  background:#FFFFFF;
+}
+
+.b_sty{
+font-size:20px;
+color:#d1b97f;
+margin-right:1%;
+}
+.title_font{
+  font-size: 18px;
+}
+
+.formitem_sty{
+  /*margin-left: 10%;*/
+}
+
+.item_div{
+  margin-top: 3%;
+}
+.item_div2{
+  margin-top: 2%;
+}
+.main {
+  padding:10px 0 18px 0;
+  flex: 1 0 auto;
+  min-height:520px;
+
+}
+
+.number_input{
+  width: 100%;
+}

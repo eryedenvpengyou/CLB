@@ -1,0 +1,197 @@
+/**
+ * wanjun.feng@hand-china.com
+ * 2017/5/4
+ */
+
+ .content {
+  font-size: 16px;
+  width: 1200px;
+  margin: 20px auto;
+  border: 12px solid #efefef;
+ }
+
+/*产品列表页面*/
+/*查询模块样式*/
+.tab1 {
+  border-bottom: 12px solid #efefef;
+  padding: 0 28px 28px 28px;
+}
+.productList a  {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #000;
+  background: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+.productList a:link,
+.productList a:hover,
+.productList a:active {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #d1b97f;
+  background: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+.productList table tr td {
+  border-bottom: 12px solid #efefef !important;
+  height: 303px;
+}
+.productListFW table tr td {
+  border-bottom: 12px solid #efefef !important;
+  height: 303px;
+}
+.productListFW table tr td:nth-child(2) {
+  vertical-align: top;
+}
+
+/*产品对比页面-表格第一列样式*/
+.tableColumnCenter {
+  background-color: #efefef;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+/*产品详情*/
+.productDetail table {
+  border: 1px solid #d1b97f !important;
+}
+.productDetail table thead tr th {
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+  background: #fff !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+.productDetail table tbody tr td {
+    border-right: 1px solid #d1b97f !important;
+    border-bottom: 1px solid #d1b97f !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+.productDetail a {
+  color: #000;
+}
+
+/*产品库样式*/
+.product table {
+  border: 1px solid #d1b97f !important;
+}
+.product table thead tr th {
+  text-align: center;
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+  font-weight: normal !important;
+  background-color: #efefef;
+  font-size: 18px !important;
+}
+.product table tbody tr td {
+  text-align: center;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+}
+.product_title {
+  margin-bottom: 29px;
+  color: #000;
+}
+.product_name {
+  font-size: 28px;
+  color: #000;
+}
+.product_supplier {
+  margin-left: 32px;
+  padding: 9px 22px;
+  border: 2px solid #ededed;
+  font-size: 21px;
+  color: #000;
+}
+.product_code {
+  font-size: 18px;
+  color: #000;
+}
+.product_attribute {
+  margin-bottom: 18px;
+  font-size: 18px;
+  color: #000;
+}
+.productZQ_title {
+  margin-bottom: 25px;
+}
+.productZQ_attribute {
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+/*图文版块样式*/
+.imageText ul {
+  list-style-type: disc;
+  margin-left: 25px;
+}
+.imageText ol {
+  list-style-type: decimal;
+  margin-left: 25px;
+}
+.imageText img {
+  width: 100%;
+}
+
+/*预约--温馨提示*/
+.productSubscribeReminder {
+  color: #000;
+}
+.productSubscribeReminder div {
+  color: #9c9c9c;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+/*预约--table*/
+.productSubscribe table{
+  border: 1px solid #d1b97f !important;
+}
+.productSubscribe table thead tr th {
+  text-align: center;
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+  font-weight: normal !important;
+  background-color: #e2dccc;
+  font-size: 18px !important;
+}
+.productSubscribe table tbody tr td {
+  text-align: center;
+  font-size: 16px !important;
+  border-right: 1px solid #d1b97f !important;
+  border-bottom: 1px solid #d1b97f !important;
+}
+.select-disableds > div{
+  background: #FFF !important;
+  color: #595959 !important;
+}
+/*赴美生子 预约*/
+.productSubscribeFMSZ table{
+  border: 2px solid #d1b97f;
+  border-collapse: collapse;
+}
+.productSubscribeFMSZ td {
+  text-align: center;
+  border-right: 2px solid #d1b97f;
+  border-bottom: 2px solid #d1b97f;
+}
+.disableds input[disabled],.disableds select[disabled='disabled'],.disableds textarea[disabled='disabled'],{
+  background-color: #FFFFFF !important;
+  cursor: not-allowed;
+  color: #595959 !important;
+}
+.cascader-disableds >span[class ='ant-cascader-picker-label']{
+  /* background-color: #FFFFFF !important; */
+  color: #595959 !important;
+}
+.select-disableds>div>div>ul>li{
+  color: #595959 !important;
+}

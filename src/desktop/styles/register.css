@@ -1,0 +1,112 @@
+.btn_send{
+    padding-left:11px;
+    padding-right: 10px;
+    color:white;
+    background-color:#d1b97f;
+}
+
+.fieldset_sty{
+    width:1200px;
+    margin:20px auto;
+    padding-top:35px;
+    padding-right:0;
+    padding-left:0;
+    border:12px solid #E9E9E9;
+    background:#FFFFFF;
+
+}
+
+.fieldset_sty2{
+  width:65%;
+  margin-right:20px;
+  margin-left:17%;
+  padding-top:35px;
+  padding-right:0;
+  padding-left:0;
+  border-radius:4px;
+  border:1px solid #c3c3c3;
+  background:#FFFFFF;
+
+}
+
+.formitem_sty{
+  margin-left: 10%;
+}
+
+.button_sty{
+  margin-left: 31%;
+}
+
+.protocol_title{
+  text-align: center;
+  font-size: 20px;
+  padding: 28px 0;
+  margin: -16px -16px 16px -16px;
+  background-color: #d1b97f;
+}
+
+.protocol_content{
+  height:455px;
+  overflow-y:scroll;
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+  margin: 31px 43px 31px 43px;
+  border-radius: 4px;
+}
+
+
+.password_back{
+  width:1200px;
+  margin:20px auto;
+  padding-top:35px;
+  padding-right:0;
+  padding-left:0;
+  border:12px solid #E9E9E9;
+  background:#FFFFFF;
+  min-height: 520px;
+}
+
+
+.btn_default {
+  border-color: #d1b97f !important;
+  color: #333 !important;
+  font-size: 16px !important;
+}
+.btn_default:hover,
+.btn_default:focus,
+.btn_default:active {
+  border-color: #d1b97f !important;
+  color: #d1b97f !important;
+  font-size: 16px !important;
+}
+.btn_primary {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+    font-weight: normal;
+}
+.btn_primary:hover,
+.btn_primary:focus,
+.btn_primary:active {
+  border-color: #d1b97f !important;
+  color: #fff !important;
+  background-color: #d1b97f !important;
+  opacity: 0.7 !important;
+  font-size: 16px !important;
+  font-family: 'MicrosoftYaHei' !important;
+}
+
+/*Form表单的label标签字体*/
+.form_sty label{
+  font-size:16px;
+  font-weight: normal;
+  font-family: "Microsoft YaHei";
+}
+
+.form_sty input{
+  height:40px!important;
+}
+
+

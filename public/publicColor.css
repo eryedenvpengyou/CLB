@@ -1,0 +1,327 @@
+/*默认样式重置*/
+/*.ant-switch{!*切换语言颜色*!
+    background-color: #fff !important;
+    border-color: #fff !important;
+    !* width: 70px !important; *!
+}
+.ant-switch .ant-switch-inner{
+    color: #000 !important;
+}
+.ant-switch:after{
+    background: #000 !important;
+    color: #fff !important;
+    content: "简" !important;
+}
+.ant-switch-checked:after{
+    left: 90% !important;
+    content: "繁" !important;
+    color: #fff !important;
+    background: #000 !important;
+}
+#buttonContent a{
+    position: relative;
+}
+#buttonContent a>span{
+    position: absolute;
+    right:0;
+}
+div[class^="class01"] div[class^="lf___"]{
+    height: 491px;
+    width: 291px;
+}
+div[class^="class02"] div[class^="lf___"]{
+    height: 412px;
+    width: 291px;
+}
+div[class*="courseL"] div[class^="lf___"]{
+    height: 367px;
+    width: 290px;
+}
+.moneyNumber{
+    font-weight: normal;
+}
+#buttonImg.actives{
+    -webkit-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    transform: rotate(180deg) !important;
+}*/
+/*****************************************************分割线*********************************************/
+
+/*************第一种颜色 蓝色 #498ef3 #49aef3*************/
+.color1{
+}
+.color1 ::selection{/*选择文字颜色*/
+    background: #498ef3 !important;
+}
+.color1 .ant-input input:focus{/*input 选中颜色*/
+    border-color: #498ef3 !important;
+}
+.color1  .ant-input input:hover{/*input hover颜色*/
+    border-color: #498ef3 !important;
+}
+.color1  .ant-btn-primary{/*按钮颜色*/
+    background-color: #498ef3 !important;
+    border-color: #498ef3 !important;
+}
+.color1 .ant-table-thead >tr,.color1 .ant-table-tbody > tr:hover td{/*表格hover颜色*/
+    background: #49aef3 !important;
+}
+.color1 .ant-table-thead > tr,.color1 .ant-table-tbody > tr:hover td a{/*表格hover时的文字颜色*/
+    color: #fff !important;
+}
+.color1 .ant-btn{/*所有按钮颜色*/
+    background: #498ef3 !important;
+}
+.color1 .ant-menu-item[class*='menuChoosed__']{/*默认选中tab的图片*/
+    background-image:url('./publicImg/color1/images/icon26.png') !important;
+}
+.color1 .ant-menu-item:hover{/*header的hover图片*/
+    background-image:url('./publicImg/color1/images/icon26.png') !important;
+}
+.color1 div[class^="subscribeBtn"]{/*快速预约*/
+    background-image: url('./publicImg/color1/images/icon28.png') !important;
+}
+.color1 .anticon-edit{/*理财信息的更改用户信息按钮*/
+    color: #498ef3 !important;
+}
+.color1 div[class^="planLibraryBtn"]{/*计划书库*/
+    background-image: url('./publicImg/color1/images/icon29.png');
+}
+.color1 .carousel-indicators .active{/*轮播图下面的圆点颜色*/
+    background-color: #498ef3 !important;
+}
+.color1 .setting_btn{/*13个icon右边的齿轮*/
+    background-image: url('./publicImg/color1/images/icon33.png') !important;
+}
+.color1 #buttonImg{/*13个icon下面的箭头*/
+    background-image: url('./publicImg/color1/images/icon35.png') !important;
+}
+.color1 #buttonImg.actives{/*箭头向上的图片没有引用，用的css旋转*/
+    /* background-image: url('./publicImg/color1/images/icon34.png') !important; */
+}
+/*工作台按钮图片样式，注意，各个颜色的icon编号不对应，需要更改*/
+.color1 #buttonContent a[href="#/order/summary"] .tabIcon{/*我的保单*/
+    background-image: url('./publicImg/color1/icon12.png') !important;
+}
+.color1 #buttonContent a[href="#/channel/teamRate"] .tabIcon{/*转介费率*/
+    background-image: url('./publicImg/color1/icon7.png') !important;
+}
+.color1 #buttonContent a[href="#/order/bonds"] .tabIcon{/*债券*/
+    background-image: url('./publicImg/color1/icon25.png') !important;
+}
+.color1 #buttonContent a[href="#/plan/myPlan"] .tabIcon{/*我的计划书*/
+    background-image: url('./publicImg/color1/icon13.png') !important;
+}
+.color1 #buttonContent a[href="#/orderPending/list"] .tabIcon{/*pending*/
+    background-image: url('./publicImg/color1/icon4.png') !important;
+}
+.color1 #buttonContent a[href="#/performance/MyPerformance"] .tabIcon{/*我的业绩*/
+    background-image: url('./publicImg/color1/icon18.png') !important;
+}
+.color1 #buttonContent a[href="#/channel/team"] .tabIcon{/*我的团队*/
+    background-image: url('./publicImg/color1/icon17.png') !important;
+}
+.color1 #buttonContent a[href="#/portal/customer"] .tabIcon{/*我的客户*/
+    background-image: url('./publicImg/color1/icon14.png') !important;
+}
+.color1 #buttonContent a[href="#/portal/reservation/1"] .tabIcon{/*服务预约*/
+    background-image: url('./publicImg/color1/icon21.png') !important;
+}
+.color1 #buttonContent a[href="#/channel/ratio"] .tabIcon{/*渠道分成设置*/
+    background-image: url('./publicImg/color1/icon9.png') !important;
+}
+.color1 #buttonContent a[href="#/order/orderImmigrantInvest/list"] .tabIcon{/*投资移民*/
+    background-image: url('./publicImg/color1/icon23.png') !important;
+}
+.color1 #buttonContent a[href="#/after/list"] .tabIcon{/*保单售后*/
+    background-image: url('./publicImg/color1/icon11.png') !important;
+}
+.color1 #buttonContent a[href="#/settlement/check"] .tabIcon{/*对账单*/
+    background-image: url('./publicImg/color1/icon5.png') !important;
+}
+.color1 .typeTxt{/*13个icon底下的文字*/
+    color: #498ef3 !important;
+}
+/* .color1 .ant-modal-body div[class^="funcProtocolTitle"]{
+    background-color: #498ef3 !important;
+} */
+.color1 div[class^="class01"] div[class^="lf___"]{/*理财信息*/
+    background-image: url('./publicImg/color1/images/img1.png') !important;
+    background-repeat: no-repeat;
+}
+.color1 div[class^="class02"] div[class^="lf___"]{/*代办列表*/
+    background-image: url('./publicImg/color1/images/img2.png') !important;
+    background-repeat: no-repeat;
+}
+.color1 div[class^="class02"] div[class*="class02Right"]{/*代办列表右边框*/
+    background-image: url('./publicImg/color1/images/icon31.png') !important;
+}
+.color1 div[class*="courseL"] div[class^="lf___"]{/*我的课程*/
+    background-image: url('./publicImg/color1/images/img3.png') !important;
+}
+.color1 .userType{/*已签约、未签约*/
+    background-color: #498ef3 !important;
+}
+.color1 .moneyNumber{/*理财信息数字*/
+    color: #498ef3 !important;
+    font-weight: normal !important;
+}
+.color1 div[class*="sideL__"] .imgA{/*在线咨询*/
+    background-image: url('./publicImg/color1/images/icon30.png') !important;
+}
+.color1 div[class*="sideL__"] .imgB{/*扫码关注*/
+    background-image: url('./publicImg/color1/images/icon32.png') !important;
+}
+.color1 div[class*="sideL__"] .imgC{/*返回顶部*/
+    background-image: url('./publicImg/color1/images/icon27.png') !important;
+}
+
+/*********************************************************第二种颜色 *******************************************************/
+.color2{
+}
+.color2 .ant-input input:focus{
+    border-color: #1e2e5f !important;
+}
+.color2 .ant-input input:focus{/*input 选中颜色*/
+  border-color: #1e2e5f !important;
+}
+.color2  .ant-input input:hover{/*input hover颜色*/
+  border-color: #1e2e5f !important;
+}
+.color2  .ant-btn-primary{/*按钮颜色*/
+  background-color: #1e2e5f !important;
+  border-color: #1e2e5f !important;
+}
+.color2 .ant-table-thead >tr,.color2 .ant-table-tbody > tr:hover td{/*表格hover颜色*/
+  background: #1e2e5f !important;
+}
+.color2 .ant-table-thead > tr,.color2 .ant-table-tbody > tr:hover td a{/*表格hover时的文字颜色*/
+  color: #fff !important;
+}
+.color2 .ant-btn{/*所有按钮颜色*/
+  background: #1e2e5f !important;
+}
+.color2 .ant-menu-item[class*='menuChoosed__']{/*默认选中tab的图片*/
+  background-image:url('./publicImg/color2/images/icon26.png') !important;
+}
+.color2 .ant-menu-item:hover{/*header的hover图片*/
+  background-image:url('./publicImg/color2/images/icon26.png') !important;
+}
+.color2 div[class^="subscribeBtn"]{/*快速预约*/
+  background-image: url('./publicImg/color2/images/icon28.png') !important;
+}
+.color2 .anticon-edit{/*理财信息的更改用户信息按钮*/
+  color: #1e2e5f !important;
+}
+.color2 div[class^="planLibraryBtn"]{/*计划书库*/
+  background-image: url('./publicImg/color2/images/icon29.png');
+}
+.color2 .carousel-indicators .active{/*轮播图下面的圆点颜色*/
+  background-color: #1e2e5f !important;
+}
+.color2 .setting_btn{/*13个icon右边的齿轮*/
+  background-image: url('./publicImg/color2/images/icon33.png') !important;
+}
+.color2 #buttonImg{/*13个icon下面的箭头*/
+  background-image: url('./publicImg/color2/images/icon35.png') !important;
+}
+.color2 #buttonImg.actives{/*箭头向上的图片没有引用，用的css旋转*/
+  /* background-image: url('./publicImg/color2/images/icon34.png') !important; */
+}
+/*工作台按钮图片样式，注意，各个颜色的icon编号不对应，需要更改*/
+.color2 #buttonContent a[href="#/order/summary"] .tabIcon{/*我的保单*/
+  background-image: url('./publicImg/color2/icon12.png') !important;
+}
+.color2 #buttonContent a[href="#/channel/teamRate"] .tabIcon{/*转介费率*/
+  background-image: url('./publicImg/color2/icon7.png') !important;
+}
+.color2 #buttonContent a[href="#/order/bonds"] .tabIcon{/*债券*/
+  background-image: url('./publicImg/color2/icon25.png') !important;
+}
+.color2 #buttonContent a[href="#/plan/myPlan"] .tabIcon{/*我的计划书*/
+  background-image: url('./publicImg/color2/icon13.png') !important;
+}
+.color2 #buttonContent a[href="#/orderPending/list"] .tabIcon{/*pending*/
+  background-image: url('./publicImg/color2/icon4.png') !important;
+}
+.color2 #buttonContent a[href="#/performance/MyPerformance"] .tabIcon{/*我的业绩*/
+  background-image: url('./publicImg/color2/icon18.png') !important;
+}
+.color2 #buttonContent a[href="#/channel/team"] .tabIcon{/*我的团队*/
+  background-image: url('./publicImg/color2/icon17.png') !important;
+}
+.color2 #buttonContent a[href="#/portal/customer"] .tabIcon{/*我的客户*/
+  background-image: url('./publicImg/color2/icon14.png') !important;
+}
+.color2 #buttonContent a[href="#/portal/reservation/1"] .tabIcon{/*服务预约*/
+  background-image: url('./publicImg/color2/icon21.png') !important;
+}
+.color2 #buttonContent a[href="#/channel/ratio"] .tabIcon{/*渠道分成设置*/
+  background-image: url('./publicImg/color2/icon9.png') !important;
+}
+.color2 #buttonContent a[href="#/order/orderImmigrantInvest/list"] .tabIcon{/*投资移民*/
+  background-image: url('./publicImg/color2/icon23.png') !important;
+}
+.color2 #buttonContent a[href="#/after/list"] .tabIcon{/*保单售后*/
+  background-image: url('./publicImg/color2/icon11.png') !important;
+}
+.color2 #buttonContent a[href="#/settlement/check"] .tabIcon{/*对账单*/
+  background-image: url('./publicImg/color2/icon5.png') !important;
+}
+.color2 .typeTxt{/*13个icon底下的文字*/
+  color: #1e2e5f !important;
+}
+/* .color2 .ant-modal-body div[class^="funcProtocolTitle"]{
+    background-color: #1e2e5f !important;
+} */
+.color2 div[class^="class01"] div[class^="lf___"]{/*理财信息*/
+  background-image: url('./publicImg/color2/images/img1.png') !important;
+  background-repeat: no-repeat;
+}
+.color2 div[class^="class02"] div[class^="lf___"]{/*代办列表*/
+  background-image: url('./publicImg/color2/images/img2.png') !important;
+  background-repeat: no-repeat;
+}
+.color2 div[class^="class02"] div[class*="class02Right"]{/*代办列表右边框*/
+  background-image: url('./publicImg/color2/images/icon31.png') !important;
+}
+.color2 div[class*="courseL"] div[class^="lf___"]{/*我的课程*/
+  background-image: url('./publicImg/color2/images/img3.png') !important;
+}
+.color2 .userType{/*已签约、未签约*/
+  background-color: #1e2e5f !important;
+}
+.color2 .moneyNumber{/*理财信息数字*/
+  color: #1e2e5f !important;
+  font-weight: normal !important;
+}
+.color2 div[class*="sideL__"] .imgA{/*在线咨询*/
+  background-image: url('./publicImg/color2/images/icon30.png') !important;
+}
+.color2 div[class*="sideL__"] .imgB{/*扫码关注*/
+  background-image: url('./publicImg/color2/images/icon32.png') !important;
+}
+.color2 div[class*="sideL__"] .imgC{/*返回顶部*/
+  background-image: url('./publicImg/color2/images/icon27.png') !important;
+}
+/*********************************************************第三种颜色*******************************************************/
+.color3{}
+.color3 .ant-input input:focus{
+    border-color: #e6162d !important;
+}
+/*********************************************************第四种颜色*******************************************************/
+.color4{}
+.color4 .ant-input input:focus{
+    border-color: #fc801d !important;
+}
+/*********************************************************第五种颜色*******************************************************/
+.color5{}
+.color5 .ant-input input:focus{
+    border-color: #8069d1 !important;
+}
+/*********************************************************第六钟颜色********************************************************/
+.color6{}
+.color6 .ant-input input:focus{
+    border-color: #ffda44 !important;
+}

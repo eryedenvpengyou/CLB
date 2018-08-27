@@ -1,0 +1,918 @@
+/*
+ * view 财课堂
+ * @author:Lijun
+ * @version:20170704
+ */
+.classroom{}
+
+.classroom,.main{}
+
+/* frame */
+.classroom .container{}
+
+.classroom .header{}
+
+.classroom .body{}
+
+.classroom .frame{
+    width: 1200px;
+    margin: 12px auto;
+}
+.classroom .container,
+.classroom .padding{
+    padding: 12px;
+}
+
+.classroom .footer{}
+
+.classroom .row{}
+
+.classroom .course .container.review-more .row div a.img-container,
+.classroom .course .container,
+.classroom,
+.main,
+.classroom .full{
+    width: 100%;
+}
+
+
+.classroom .overflow{
+    overflow: hidden;
+}
+
+.classroom .left{
+    float: left;
+}
+
+.classroom .right{
+    float: right;
+}
+.classroom .title-container,
+.classroom .border-bottom-grey{
+    border-bottom: 1px solid #ececec;
+}
+
+.classroom .border-left-grey{
+    border-left: 1px solid #ececec;
+}
+
+.classroom .margin-top{
+    margin-top: 12px;
+}
+
+/* component */
+.classroom a:visited{
+    color: inherit;
+}
+
+.classroom .btn{
+    border-radius: 5%;
+    outline: none;
+    font-size: 16px;
+    width: 100px;
+}
+
+/*.classroom .btn.blank{}*/
+
+/*.classroom form input{}*/
+
+/*.classroom form .form-item-require label:before{*/
+    /*display: inline-block;*/
+    /*margin-right: 4px;*/
+    /*content: "*";*/
+    /*font-family: SimSun;*/
+    /*line-height: 1;*/
+    /*font-size: 12px;*/
+    /*color: #f04134;*/
+/*}*/
+
+
+
+/*.classroom form textarea{*/
+    /*padding: 5px;*/
+/*}*/
+
+/*.classroom form input:hover,*/
+/*.classroom form textarea:hover{*/
+    /*box-shadow:0 0 0 2px rgba(209, 185, 127, 0.31);*/
+/*}*/
+
+/*.classroom .select > div:focus,*/
+/*.classroom .select > div:hover{*/
+    /*border-color: rgb(209, 185, 127) !important;*/
+/*}*/
+
+/*.classroom .select> div:focus{*/
+    /*box-shadow:0 0 0 2px rgba(209, 185, 127, 0.31) !important;*/
+/*}*/
+
+/*.classroom .tab{}*/
+
+/*.classroom .table{}*/
+
+/*.classroom div.table table{*/
+    /*border-right: 0;*/
+    /*border-bottom: 0;*/
+    /*border-radius: initial;*/
+/*}*/
+
+/*.classroom .table table thead th,*/
+/*.classroom .table table tbody td{*/
+    /*border-right: 1px solid rgb(209, 185, 127);*/
+    /*border-bottom: 1px solid rgb(209, 185, 127);*/
+    /*font-weight:bold;*/
+/*}*/
+
+/*.classroom .table table thead th{*/
+    /*padding: 12px;*/
+    /*font-size: 15px;*/
+/*}*/
+
+/*.classroom .table table tbody td{*/
+    /*padding: 8px;*/
+/*}*/
+
+/*.classroom .table table tbody tr:hover> td,*/
+/*.classroom .background-init{*/
+    /*background: initial;*/
+/*}*/
+
+
+/* color & backgroud & border*/
+.classroom .blank:hover,
+.classroom .background{
+    background: rgb(209, 185, 127);
+}
+
+.classroom .tab,
+.classroom .btn.blank,
+.classroom .course .frame,
+.classroom .background-white{
+    background: #fff;
+}
+
+.classroom span.bar,
+.classroom .btn,
+.classroom .blank:hover,
+.classroom .background-default{
+    background: #d1b97f;
+}
+
+.classroom .background-grey{
+    background: #efefef;
+}
+
+/*.classroom form input:hover,*/
+/*.classroom form input:focus,*/
+/*.classroom form textarea:hover,*/
+/*.classroom form textarea:focus,*/
+/*.classroom .apply-popup-modal.container,*/
+/*.classroom .table table,*/
+/*.classroom .border{*/
+    /*border: 1px solid rgb(209, 185, 127);*/
+/*}*/
+
+.classroom .border-grey{
+    border: 1px solid #efefef;
+}
+
+.classroom .link,
+.classroom .color{
+    color: rgb(209, 185, 127) !important;
+}
+
+.classroom .frame .content,
+/*.classroom div table>thead th,*/
+.apply-popup-modal .blank{
+    background: #fff;
+}
+
+.classroom .table table{}
+
+.classroom .course-detail .action .btn.apply.blank,
+.classroom .apply-popup-modal.container .add-user,
+.classroom .course ul.list li a span:hover,
+.classroom .color,
+.classroom .table table tbody .color{
+    color: rgb(209, 185, 127);
+}
+
+.classroom .course-detail .action .btn.apply:hover,
+.classroom .course-detail .action .btn.apply,
+.classroom .btn:focus,
+.classroom .btn:hover,
+.classroom .btn:visited,
+.classroom .btn.blank:hover,
+.classroom .color-white,
+.classroom .btn{
+    color: #fff;
+}
+
+.classroom .course ul.list li a,
+.classroom .btn.blank,
+.classroom .color-dark{
+    color: #000;
+}
+
+.classroom .apply-popup-modal.container .body .row .submit,
+.classroom .table table tbody td .button-container a,
+.classroom .inline-block{
+    display: inline-block;
+}
+
+.classroom .table table tbody td .button-container .btn{
+    width: 80px;
+    height: 30px;
+}
+
+.classroom .course .container.review-more .row div a.img-container,
+.classroom .table table tbody td .button-container,
+.classroom .text-center{
+    text-align: center;
+}
+
+.classroom .icon{
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.classroom .icon.icon-normal{
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: -3px;
+    margin-right: 12px;
+}
+
+.classroom .icon-datum-white,
+.classroom .icon-datum{
+    position: absolute;
+    margin-top: -5px;
+}
+
+.classroom .bold{
+    font-weight: bold;
+}
+
+.classroom .clear{
+    clear: both;
+}
+
+.classroom span.title-bar{
+    font-size: 26px;
+    line-height: 30px;
+    display: inline-block;
+    border-left: 6px solid rgb(209, 185, 127);
+    padding-left: 8px;
+}
+
+.classroom .title-container{
+    padding: 28px 12px;
+}
+.classroom .banner.header .frame{
+    padding: initial;
+    margin: 0 auto;
+}
+
+.classroom .banner.header .banner-desc{
+    width: 583px;
+    height: 350px;
+    max-height: 350px;
+    background-image: url(./images/banner-desc.png);
+    background-repeat: no-repeat;
+    padding: 68px 80px 38px 60px;
+}
+
+.classroom .header{
+    height: 350px;
+    max-height: 350px;
+    line-height: initial;
+}
+
+.classroom .img-container.l{
+    padding-right: 8px;
+}
+
+.classroom .img-container.r{
+    padding-left: 8px;
+}
+
+.classroom .img-container img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+/* action */
+.classroom .active{}
+
+
+/* page */
+.classroom .apply-popup-modal.container{
+    margin: 30px;
+    padding: 8px;
+}
+
+.classroom .apply-popup-modal.container .body .row.top{
+    padding: 12px 40px 30px 40px;
+}
+
+.classroom .apply-popup-modal.container h5.topic,
+.classroom .apply-popup-modal.container h5.price{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.classroom .apply-popup-modal.container .body .row .submit{
+    width: 120px;
+}
+
+
+.classroom .apply-popup-modal.container .body .row.btn-container{
+    text-align: center;
+}
+
+.classroom .apply-popup-modal.container .body form .module{
+    padding: 25px 0px;
+    border-top: 1px #ccc dashed;
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 40px;
+}
+
+
+.classroom .apply-popup-modal.container .body form .module .mark{
+    position: absolute;
+    display: block;
+    font-size: 40px;
+    margin: -58px 0 0 -40px;
+    color: #ccc;
+}
+
+.classroom .apply-popup-modal.container .body form .module .delete{
+    position: absolute;
+    margin: -40px 0 0 47%;
+}
+
+.classroom .apply-popup-modal.container .add-user{
+    margin: 16px;
+    font-size: 15px;
+}
+
+.classroom .apply-popup-modal.container form .form-item-require > div + div > div:after {
+    position: absolute;
+    margin-top: 5px;
+}
+
+.classroom .course .frame{
+    padding: 12px 24px;
+}
+
+.classroom .course .frame,
+.classroom .box-shadow{
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    border-radius: 2%;
+}
+
+.classroom .course .btn.datum-btn{
+    margin-top: -12px;
+}
+
+.classroom .btn.datum-btn:hover{
+    background: initial;
+    color: initial;
+}
+
+.classroom .course .title{
+    text-align: center;
+}
+
+.classroom .business .title > h1,
+.classroom .course .title > h1{
+    margin: 12px;
+    font-size: 30px;
+}
+
+.classroom .course .link{
+    font-size: 21px;
+    line-height: 47px;
+}
+
+.classroom .course .left .img-container img{
+    max-height: 232px;
+}
+
+.classroom .course ul.list{
+    font-size: 19px;
+    width: calc(50% - 28px);
+}
+
+.classroom .course ul.list li{
+    margin-bottom: 6px;
+}
+
+.classroom .course ul.list li a span{
+    margin-left: 38px;
+}
+
+.classroom .course .container .row{
+    padding: 5px 0;
+}
+.classroom .course .container.course-more .row{
+    height: 256px;
+    max-height: 256px;
+}
+
+.classroom .course .container.course-more .row div a.img-container img{
+    max-height: 230px;
+}
+
+.classroom .course .container.review-more .row div a.img-container{
+    font-size: 19px;
+}
+
+.classroom .course .container.review-more .row div a.img-container img{
+    margin: 12px auto;
+    width: 314px;
+    height: 208px;
+    max-width: 314px;
+    height: 208px;
+    border-radius: 2%;
+}
+
+.classroom .course-list .btn.datum-btn{
+    /*position: absolute;*/
+    right: 0;
+}
+
+.classroom .course-detail .topic{
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.classroom .course-detail ul.list li{
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.classroom .course-detail ul.list li h5{
+    font-size: 18px;
+    margin: initial;
+    padding: 0;
+}
+
+.classroom .course-detail .action .btn{
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.classroom .course-detail .action{
+    text-align: center;
+    width: 232px;
+    margin: 50% auto;
+}
+
+.classroom .course-detail .action h1{
+	margin-bottom: 10%;
+    margin-top: 40%;
+    font-size: 38px;
+}
+
+.classroom .course-detail .btn.link-btn{
+    margin-top: -7px;
+    margin-left: -5px;
+    width: 120px;
+}
+
+.classroom .course-detail .lecturer-introduction ul{
+    padding: 18px !important;
+}
+
+.classroom .evaluation-popup{}
+
+.classroom .evaluation-popup-modal h4.title{
+    font-size: 24px;
+}
+
+.classroom .evaluation-popup-modal ul.rates-container{
+    padding: 16px;
+}
+
+.classroom .evaluation-popup-modal ul.rates-container li.child{
+    margin: 16px;
+}
+
+.classroom .evaluation-popup-modal span.title{
+    text-align: right;
+    font-size: 18px;
+    width: 110px;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.classroom .evaluation-popup-modal ul.rates-container li .rate{
+    margin-top: -8px;
+}
+
+.classroom .evaluation-popup-modal .submit{
+    width: 170px;
+    height: 36px;
+}
+
+.classroom .review-list .img-container img{
+    max-height: 197px;
+}
+.classroom .review-list .card .article{
+    padding: 28px 0 28px 28px;
+}
+.classroom .review-list .card{
+    padding: 28px 12px;
+}
+
+.classroom .review-list .card .article h3{
+    margin-bottom: 28px;
+}
+
+.classroom .business .list-content{
+    margin-left: 60px;
+    border-radius: 2%;
+    opacity: .8;
+    border: 2px #726e6b dashed;
+}
+
+.classroom .business .list-content a > .left{
+    width: 220px;
+}
+
+.classroom .business .list-content a > .left > img{
+    margin-left: -60px;
+    margin-top: -44px;
+    width: 276px;
+    height: 200px;
+}
+
+.classroom .business .list-content a > .right{
+    padding: 52px 20px;
+}
+
+.classroom .business .list-content a > .right h4{
+    line-height: 34px;
+}
+
+.classroom .business .list-content a > .right ul{
+    margin-left: 54px;
+    font-size: 16px;
+    color: #000;
+}
+
+.classroom .tip-modal-confirm-wrapper .icon-cross{
+    color: #f04134;
+}
+
+.classroom .tip-modal-confirm-wrapper .icon-confirm{
+    color: #ffbf00;
+}
+
+.classroom .tip-modal-confirm-wrapper .icon-success{
+    color: #00a854;
+}
+
+.classroom .tip-modal-confirm-wrapper .icon-info{
+    color: #108ee9;
+    background: initial;
+}
+
+.classroom .tip-modal-confirm-wrapper .confirm-btns{
+    margin-top: 30px;
+    float: right;
+}
+
+.classroom .tip-modal-confirm-wrapper .confirm-btns >button+button{
+    margin-left: 10px;
+}
+
+.classroom .tip-modal-confirm-wrapper .confirm-content{
+    margin-left: 42px;
+    font-size: 12px;
+    color: rgba(0,0,0,.65);
+    margin-top: 8px;
+}
+
+.classroom .tip-modal-confirm-wrapper:before, .classroom .tip-modal-confirm-wrapper:after {
+    content: " ";
+    display: table;
+}
+
+.classroom .tip-modal-confirm-wrapper:after {
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+}
+
+.classroom .range-date input{
+    margin-top: -6px;
+}
+
+.classroom.modal >div >div >div{
+    padding: 30px 40px;
+}
+
+.classroom.student-info >div >div >div{
+    padding: initial;
+}
+
+.classroom-banner-1{
+    background-image: url(./images/classroom-banner-1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+}
+
+.classroom-banner-2{
+    background-image: url(./images/classroom-banner-2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.course-background-2{
+    background-image: url(./images/course-background-2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.business-background-1{
+    background-image: url(./images/business-background-1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: 270px;
+}
+
+.business-background-2{
+    background-image: url(./images/business-background-2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 458px;
+    max-height: 458px;
+}
+
+.business-background-3{
+    background-image: url(./images/business-background-3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 473px;
+    max-height: 473px;
+}
+
+.classroom .review-list .card:hover{
+    cursor: pointer;
+}
+
+.business-support{
+    background-image: url(./images/business-support.png);
+    background-repeat: no-repeat;
+}
+
+.training-course{
+    background-image: url(./images/training-course.png);
+    background-repeat: no-repeat;
+}
+
+.business-support,
+.training-course{
+    width: 310px;
+    height: 78px;
+}
+
+.icon-double-right{
+    background-image: url(./images/icon-double-right.png);
+    background-position: bottom;
+    width: 16px;
+    height: 24px;
+}
+
+.icon-datum{
+    background-image: url(./images/icon-datum.png);
+}
+
+.icon-datum-white{
+    background-image: url(./images/icon-datum-white.png);
+}
+
+.icon-datum-white,.icon-datum{
+    width: 39px;
+    height: 39px;
+}
+
+.icon-video{
+    background-image: url(./images/icon-video.png);
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.icon-info{
+    background-image: url(./images/icon-info.png);
+    width: 17px;
+}
+
+.icon-info,
+.icon-people{
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 12px;
+}
+
+.icon-people{
+    background-image: url(./images/icon-people.png);
+    width: 23px;
+}
+
+.icon-location{
+    background-image: url(./images/icon-location.png);
+}
+
+.icon-book{
+    background-image: url(./images/icon-book.png);
+}
+
+.icon-clock{
+    background-image: url(./images/icon-clock.png);
+}
+
+.icon-person{
+    background-image: url(./images/icon-person.png);
+}
+
+.icon-voice{
+    background-image: url(./images/icon-voice.png);
+    margin-left: 5px;
+}
+
+.icon-more-right{
+    background-image: url(./images/icon-more-right.png);
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+}
+
+.icon-quotes{
+    background-image: url(./images/icon-quotes.png);
+
+}
+
+.icon-board{
+    background-image: url(./images/icon-board.png);
+}
+
+.icon-cup{
+    background-image: url(./images/icon-cup.png);
+}
+
+.icon-quotes,
+.icon-board,
+.icon-cup{
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+}
+
+
+.classroom .border,
+.classroom .btn,
+.classroom .blank{
+    border: 1px solid rgb(209, 185, 127);
+}
+
+
+.classroom .course{}
+
+.classroom .course ul.recommended li{
+    list-style-type: initial;
+}
+
+.classroom .course ul.recommended li a{
+    color: #000;
+}
+
+.classroom .course .more-container{
+    text-align: center;
+}
+
+.classroom .course .more-container a.more{
+    padding: 10px;
+    display: inline-block;
+    margin: 34px 0;
+    width: 15%;
+}
+
+.classroom-tip-modal >div >div >div{
+    padding: initial;
+}
+
+.classroom-tip-modal >div >div >div .header{
+    background: #d1b97f;
+    line-height: 18px;
+    height: initial;
+    padding: 12px;
+}
+
+.classroom-tip-modal >div >div >div .content{
+    margin: 2% 0;
+}
+
+.classroom-tip-modal >div >div >div .icon{
+    margin: 5% 0 2% 0;
+}
+
+.classroom-tip-modal >div >div >div .icon,
+.classroom-tip-modal >div >div >div .content,
+.classroom-tip-modal >div >div >div .footer{
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+.classroom-tip-modal >div >div >div .footer{
+    margin-bottom: 5%;
+}
+
+
+.classroom .tab{
+    line-height: 50px;
+    padding: 30px 12px 20px 12px;
+}
+
+.classroom .tab a{
+    display: inline-block;
+    text-align: center;
+    width: calc((100% - 2px) / 3);
+    font-size: 16px;
+    color: #000;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transition: border-top .3s ease;
+}
+
+.classroom .tab a:hover,
+.classroom .tab a:focus,
+.classroom .tab .active{
+    border-top: 2px solid #d1b97f;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #d1b97f;
+}
+
+
+
+
+
+
+
+
+.classroom .course-list{}
+
+.classroom .datum .btn,
+.classroom .course-list .btn{
+    height: 40px;
+    width: 160px;
+}
+
+.classroom .datum .btn.search,
+.classroom .course-list .btn.search{
+    margin-right: 8px;
+}
+
+.classroom .review{}
+
+.classroom .review .article{
+    line-height: 30px;
+    cursor: pointer;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+/*图文版块样式*/
+.imageText ul {
+  list-style-type: disc;
+  margin-left: 25px;
+}
+.imageText ol {
+  list-style-type: decimal;
+  margin-left: 25px;
+}
+.imageText img {
+  max-width: 1150px;
+}
+.imageText div,p,span,a,i,ul,ol,font,b,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Microsoft YaHei' !important;
+}
+.imageText{
+  font-family: 'Microsoft YaHei' !important;
+}

@@ -1,0 +1,204 @@
+.database{}
+.database.main{
+  width: 100%;
+}
+
+.database,
+.database .frame,
+.overflow{
+  overflow: hidden;
+}
+
+.database .border,
+.database .btn,
+.database .blank,
+.database div.table table,
+.database form input:hover,
+.database form input:focus,
+.database form textarea:hover,
+.database form textarea:focus{
+  border: 1px solid rgb(209, 185, 127);
+}
+
+.database form textarea:focus,
+.database form input:focus{
+    box-shadow:0 0 0 2px rgba(209, 185, 127, 0.31);
+}
+
+.database .border-radius,
+.database .btn,
+.apply-popup-modal .btn{
+    border-radius: 5%;
+}
+
+.database .border-radius,
+.database .btn{
+    border-radius: 5%;
+}
+
+.database .left{
+    float: left;
+}
+
+.database .right{
+    float: right
+}
+
+.database .bold{
+    font-weight: bold;
+}
+
+.database .btn{}
+
+.database .blank{}
+
+.database .blank:hover{}
+
+.database .frame{
+    width: 1200px;
+    margin: 12px auto;
+}
+
+.database .container,
+.database .padding{
+    padding: 12px;
+}
+
+.database .frame div.content{
+    padding: 12px;
+}
+
+.database .frame span.title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.database .frame .margin-top{
+    margin-top: 12px;
+}
+
+.database .frame .communal{
+    margin-top: 10px;
+    margin-bottom: 51px;
+}
+.database .frame .communal span.bar{
+    display: inline-block;
+    width: 6px;
+    height: 20px;
+    background-color: #d1b97f;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+}
+
+.database .tab{
+    line-height: 50px;
+    padding: 30px 12px 20px 12px;
+}
+
+.database .tab a{
+    display: inline-block;
+    text-align: center;
+    padding: 0 calc((100% - (67px * 2)) / 4);
+    font-size: 16px;
+    color: #000;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transition: border-top .3s ease;
+}
+
+.database .tab a:hover,
+.database .tab a:focus,
+.database .tab .active{
+    border-top: 2px solid #d1b97f;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #d1b97f;
+}
+
+.database .background,
+.database .btn,
+.database .blank:hover,
+.apply-popup-modal .blank:hover{
+    background: rgb(209, 185, 127);
+}
+
+.database .background-white,
+.database .blank,
+.database .tab,
+.database .frame .content,
+.database div table>thead th{
+    background: #fff;
+}
+
+.database div.table table{
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: initial;
+}
+
+.database div.table table thead th,
+.database div.table table tbody td{
+    border-right: 1px solid rgb(209, 185, 127);
+    border-bottom: 1px solid rgb(209, 185, 127);
+    font-weight:bold; 
+}
+
+.database div.table table thead th{
+    padding: 12px;
+}
+
+.database div.table table tbody td{
+    padding: 8px;
+}
+
+.database div.table table tbody tr:hover> td{
+    background: initial;
+}
+
+.database .color,
+.database .blank,
+.database div table tbody .color{
+    color: rgb(209, 185, 127) !important;
+}
+
+.database .btn:focus,
+.database .btn:hover,
+.database .color-white,
+.database .btn{
+    color: #fff;
+}
+
+.database .blank:hover{
+    color: #fff !important;
+}
+
+.database .common-data{}
+
+.database .btn.search{
+    margin-right: 8px;
+}
+
+.database .production-data .btn,
+.database .common-data .btn{
+    height: 40px;
+    width: 160px;
+}
+
+.database .select > div:focus,
+.database .select > div:hover{
+    border-color: rgb(209, 185, 127) !important;
+}
+
+.database .select> div:focus{
+    box-shadow:0 0 0 2px rgba(209, 185, 127, 0.31) !important;
+}
+
+.database .text-center{
+    text-align: center;
+}
+a[class*='download02']{
+    background-image: url('../styles/images/mine/icon02.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
